@@ -1,0 +1,55 @@
+{
+ "run": "smoke1",
+ "region": "us-west-2",
+ "started": 1793127075.592458,
+ "args": {
+  "profile": null,
+  "cmd": "run",
+  "region": "us-west-2",
+  "only": [
+   "q2"
+  ],
+  "networks": [
+   "PUBLIC"
+  ],
+  "platforms": [
+   "V2"
+  ],
+  "subnets": null,
+  "security_groups": null,
+  "vpc_cidr": "10.88.0.0/16",
+  "samples": 2,
+  "step_sessions": 2,
+  "gap_s": 2.0,
+  "quiet_s": 10,
+  "settle_min": 0,
+  "idle_timeout_s": 600,
+  "ballast_mb": 32,
+  "base_image": "public.ecr.aws/docker/library/python:3.12-slim",
+  "name": "smoke1",
+  "skip_extras": true,
+  "keep": false,
+  "keep_logs": false,
+  "fn": "<function cmd_run at 0x106fa4720>"
+ },
+ "account": "123456789012",
+ "caller": "arn:aws:sts::123456789012:assumed-role/Admin/poc-user",
+ "runtimes": {
+  "v2_public": {
+   "id": "v2poc_smoke1_v2_public-SAA6oP8mQE",
+   "arn": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_smoke1_v2_public-SAA6oP8mQE",
+   "name": "v2poc_smoke1_v2_public",
+   "platform": "V2",
+   "network": "PUBLIC",
+   "deleted": true
+  }
+ },
+ "runtime_log_groups": [
+  "/aws/bedrock-agentcore/runtimes/v2poc_smoke1_v2_public-SAA6oP8mQE-DEFAULT"
+ ],
+ "finished": 1793127310.984292,
+ "teardown": {
+  "at": 1793127322.899819,
+  "left": []
+ }
+}

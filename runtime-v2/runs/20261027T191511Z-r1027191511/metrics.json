@@ -1,0 +1,927 @@
+{
+ "v2_endpoints": [
+  {
+   "metric": "MemoryUsed-GBHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_endpoints-uGN6uYHWoX"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    },
+    {
+     "Name": "Name",
+     "Value": "v2poc_r1027191511_v2_endpoints::test"
+    }
+   ],
+   "points": [
+    [
+     1793129700.0,
+     0.010183697695888
+    ],
+    [
+     1793130120.0,
+     0.009642436144075998
+    ]
+   ]
+  },
+  {
+   "metric": "CPUUsed-vCPUHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_endpoints-uGN6uYHWoX"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    },
+    {
+     "Name": "Name",
+     "Value": "v2poc_r1027191511_v2_endpoints::test"
+    }
+   ],
+   "points": [
+    [
+     1793129700.0,
+     0.0016753725
+    ],
+    [
+     1793130120.0,
+     0.001660069722222
+    ]
+   ]
+  },
+  {
+   "metric": "MemoryUsed-GBHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_endpoints-uGN6uYHWoX"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    },
+    {
+     "Name": "Name",
+     "Value": "v2poc_r1027191511_v2_endpoints::DEFAULT"
+    }
+   ],
+   "points": [
+    [
+     1793129700.0,
+     0.010773627612031999
+    ],
+    [
+     1793130060.0,
+     0.004170847494602
+    ],
+    [
+     1793130120.0,
+     0.007352099208833
+    ],
+    [
+     1793130720.0,
+     0.017906557031065
+    ],
+    [
+     1793130780.0,
+     0.038617919468705
+    ],
+    [
+     1793130840.0,
+     0.018688148592374
+    ],
+    [
+     1793130900.0,
+     0.01215918438592
+    ]
+   ]
+  },
+  {
+   "metric": "CPUUsed-vCPUHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_endpoints-uGN6uYHWoX"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    },
+    {
+     "Name": "Name",
+     "Value": "v2poc_r1027191511_v2_endpoints::DEFAULT"
+    }
+   ],
+   "points": [
+    [
+     1793129700.0,
+     0.0016543525000000002
+    ],
+    [
+     1793130060.0,
+     0.001576392222223
+    ],
+    [
+     1793130120.0,
+     0.00021729388888900003
+    ],
+    [
+     1793130720.0,
+     0.0035206444444449998
+    ],
+    [
+     1793130780.0,
+     0.000403468055555
+    ],
+    [
+     1793130840.0,
+     0.000194193333334
+    ],
+    [
+     1793130900.0,
+     0.000162645555556
+    ]
+   ]
+  },
+  {
+   "metric": "MemoryUsed-GBHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_endpoints-uGN6uYHWoX"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    },
+    {
+     "Name": "Name",
+     "Value": "v2poc_r1027191511_v2_endpoints::LIVE"
+    }
+   ],
+   "points": [
+    [
+     1793129700.0,
+     0.009853796077884
+    ],
+    [
+     1793130060.0,
+     0.000523026454964
+    ],
+    [
+     1793130120.0,
+     0.0104065072785
+    ],
+    [
+     1793130720.0,
+     0.020073275157972997
+    ]
+   ]
+  },
+  {
+   "metric": "CPUUsed-vCPUHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_endpoints-uGN6uYHWoX"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    }
+   ],
+   "points": [
+    [
+     1793129700.0,
+     0.004865726388889
+    ],
+    [
+     1793130060.0,
+     0.002132822222223
+    ],
+    [
+     1793130120.0,
+     0.003292681666667
+    ],
+    [
+     1793130720.0,
+     0.006965390000001001
+    ],
+    [
+     1793130780.0,
+     0.000403468055555
+    ],
+    [
+     1793130840.0,
+     0.000194193333334
+    ],
+    [
+     1793130900.0,
+     0.000162645555556
+    ]
+   ]
+  },
+  {
+   "metric": "MemoryUsed-GBHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_endpoints-uGN6uYHWoX"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    }
+   ],
+   "points": [
+    [
+     1793129700.0,
+     0.030811121385803997
+    ],
+    [
+     1793130060.0,
+     0.004693873949566
+    ],
+    [
+     1793130120.0,
+     0.027401042631409002
+    ],
+    [
+     1793130720.0,
+     0.037979832189038
+    ],
+    [
+     1793130780.0,
+     0.038617919468705
+    ],
+    [
+     1793130840.0,
+     0.018688148592374
+    ],
+    [
+     1793130900.0,
+     0.01215918438592
+    ]
+   ]
+  },
+  {
+   "metric": "CPUUsed-vCPUHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_endpoints-uGN6uYHWoX"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    },
+    {
+     "Name": "Name",
+     "Value": "v2poc_r1027191511_v2_endpoints::LIVE"
+    }
+   ],
+   "points": [
+    [
+     1793129700.0,
+     0.001536001388889
+    ],
+    [
+     1793130060.0,
+     0.00055643
+    ],
+    [
+     1793130120.0,
+     0.001415318055556
+    ],
+    [
+     1793130720.0,
+     0.003444745555556
+    ]
+   ]
+  }
+ ],
+ "v2_vpc": [
+  {
+   "metric": "CPUUsed-vCPUHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_vpc-sn3qIKFuwQ"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    }
+   ],
+   "points": [
+    [
+     1793129340.0,
+     0.000824094444444
+    ],
+    [
+     1793129400.0,
+     0.009114333055556001
+    ],
+    [
+     1793129460.0,
+     0.00022817972222200002
+    ],
+    [
+     1793129640.0,
+     0.0015660722222219999
+    ],
+    [
+     1793129820.0,
+     0.00151009
+    ],
+    [
+     1793129880.0,
+     3.0299444444e-05
+    ]
+   ]
+  },
+  {
+   "metric": "MemoryUsed-GBHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_vpc-sn3qIKFuwQ"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    },
+    {
+     "Name": "Name",
+     "Value": "v2poc_r1027191511_v2_vpc::DEFAULT"
+    }
+   ],
+   "points": [
+    [
+     1793129340.0,
+     0.015074911259583
+    ],
+    [
+     1793129400.0,
+     0.05719435189812701
+    ],
+    [
+     1793129460.0,
+     0.007307197547372
+    ],
+    [
+     1793129640.0,
+     0.009443525369391
+    ],
+    [
+     1793129820.0,
+     0.009711302178011999
+    ],
+    [
+     1793129880.0,
+     0.000206205428736
+    ]
+   ]
+  },
+  {
+   "metric": "MemoryUsed-GBHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_vpc-sn3qIKFuwQ"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    }
+   ],
+   "points": [
+    [
+     1793129340.0,
+     0.015074911259583
+    ],
+    [
+     1793129400.0,
+     0.05719435189812701
+    ],
+    [
+     1793129460.0,
+     0.007307197547372
+    ],
+    [
+     1793129640.0,
+     0.009443525369391
+    ],
+    [
+     1793129820.0,
+     0.009711302178011999
+    ],
+    [
+     1793129880.0,
+     0.000206205428736
+    ]
+   ]
+  },
+  {
+   "metric": "CPUUsed-vCPUHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_vpc-sn3qIKFuwQ"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    },
+    {
+     "Name": "Name",
+     "Value": "v2poc_r1027191511_v2_vpc::DEFAULT"
+    }
+   ],
+   "points": [
+    [
+     1793129340.0,
+     0.000824094444444
+    ],
+    [
+     1793129400.0,
+     0.009114333055556001
+    ],
+    [
+     1793129460.0,
+     0.00022817972222200002
+    ],
+    [
+     1793129640.0,
+     0.0015660722222219999
+    ],
+    [
+     1793129820.0,
+     0.00151009
+    ],
+    [
+     1793129880.0,
+     3.0299444444e-05
+    ]
+   ]
+  }
+ ],
+ "v2_public": [
+  {
+   "metric": "MemoryUsed-GBHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_public-05D2bu79EY"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    }
+   ],
+   "points": [
+    [
+     1793129340.0,
+     0.019960813484899
+    ],
+    [
+     1793129400.0,
+     0.05066185875864001
+    ],
+    [
+     1793129460.0,
+     0.008371564174864
+    ],
+    [
+     1793129640.0,
+     0.012358645269549998
+    ],
+    [
+     1793129820.0,
+     0.010158204025118
+    ]
+   ]
+  },
+  {
+   "metric": "MemoryUsed-GBHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_public-05D2bu79EY"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    },
+    {
+     "Name": "Name",
+     "Value": "v2poc_r1027191511_v2_public::DEFAULT"
+    }
+   ],
+   "points": [
+    [
+     1793129340.0,
+     0.019960813484899
+    ],
+    [
+     1793129400.0,
+     0.05066185875864001
+    ],
+    [
+     1793129460.0,
+     0.008371564174864
+    ],
+    [
+     1793129640.0,
+     0.012358645269549998
+    ],
+    [
+     1793129820.0,
+     0.010158204025118
+    ]
+   ]
+  },
+  {
+   "metric": "CPUUsed-vCPUHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_public-05D2bu79EY"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    }
+   ],
+   "points": [
+    [
+     1793129340.0,
+     0.002682076666666
+    ],
+    [
+     1793129400.0,
+     0.007538450555556
+    ],
+    [
+     1793129460.0,
+     0.000265641388889
+    ],
+    [
+     1793129640.0,
+     0.00169745
+    ],
+    [
+     1793129820.0,
+     0.001947368333333
+    ]
+   ]
+  },
+  {
+   "metric": "CPUUsed-vCPUHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_public-05D2bu79EY"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    },
+    {
+     "Name": "Name",
+     "Value": "v2poc_r1027191511_v2_public::DEFAULT"
+    }
+   ],
+   "points": [
+    [
+     1793129340.0,
+     0.002682076666666
+    ],
+    [
+     1793129400.0,
+     0.007538450555556
+    ],
+    [
+     1793129460.0,
+     0.000265641388889
+    ],
+    [
+     1793129640.0,
+     0.00169745
+    ],
+    [
+     1793129820.0,
+     0.001947368333333
+    ]
+   ]
+  }
+ ],
+ "v1_vpc": [
+  {
+   "metric": "CPUUsed-vCPUHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v1_vpc-n1re34A2Ym"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    }
+   ],
+   "points": [
+    [
+     1793128860.0,
+     0.011996032499999
+    ],
+    [
+     1793129340.0,
+     0.005968633055558
+    ],
+    [
+     1793129400.0,
+     0.004596801388889999
+    ],
+    [
+     1793129460.0,
+     0.006046947499998998
+    ],
+    [
+     1793129520.0,
+     0.000248345
+    ]
+   ]
+  },
+  {
+   "metric": "CPUUsed-vCPUHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v1_vpc-n1re34A2Ym"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    },
+    {
+     "Name": "Name",
+     "Value": "v2poc_r1027191511_v1_vpc::DEFAULT"
+    }
+   ],
+   "points": [
+    [
+     1793128860.0,
+     0.011996032499999
+    ],
+    [
+     1793129340.0,
+     0.005968633055558
+    ],
+    [
+     1793129400.0,
+     0.004596801388889999
+    ],
+    [
+     1793129460.0,
+     0.006046947499998998
+    ],
+    [
+     1793129520.0,
+     0.000248345
+    ]
+   ]
+  },
+  {
+   "metric": "MemoryUsed-GBHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v1_vpc-n1re34A2Ym"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    },
+    {
+     "Name": "Name",
+     "Value": "v2poc_r1027191511_v1_vpc::DEFAULT"
+    }
+   ],
+   "points": [
+    [
+     1793128860.0,
+     0.014579897298341998
+    ],
+    [
+     1793129340.0,
+     0.04691426897036
+    ],
+    [
+     1793129400.0,
+     0.31998003026295496
+    ],
+    [
+     1793129460.0,
+     0.11121581062477
+    ],
+    [
+     1793129520.0,
+     0.020315168008412002
+    ]
+   ]
+  },
+  {
+   "metric": "MemoryUsed-GBHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v1_vpc-n1re34A2Ym"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    }
+   ],
+   "points": [
+    [
+     1793128860.0,
+     0.014579897298341998
+    ],
+    [
+     1793129340.0,
+     0.04691426897036
+    ],
+    [
+     1793129400.0,
+     0.31998003026295496
+    ],
+    [
+     1793129460.0,
+     0.11121581062477
+    ],
+    [
+     1793129520.0,
+     0.020315168008412002
+    ]
+   ]
+  }
+ ],
+ "v1_public": [
+  {
+   "metric": "CPUUsed-vCPUHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v1_public-xIcmqp25LX"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    },
+    {
+     "Name": "Name",
+     "Value": "v2poc_r1027191511_v1_public::DEFAULT"
+    }
+   ],
+   "points": [
+    [
+     1793128620.0,
+     0.010641158888888998
+    ],
+    [
+     1793129340.0,
+     0.009120398611111
+    ],
+    [
+     1793129400.0,
+     0.002347808611111
+    ],
+    [
+     1793129460.0,
+     0.005060696388889
+    ],
+    [
+     1793129520.0,
+     8.463333333e-06
+    ]
+   ]
+  },
+  {
+   "metric": "MemoryUsed-GBHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v1_public-xIcmqp25LX"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    },
+    {
+     "Name": "Name",
+     "Value": "v2poc_r1027191511_v1_public::DEFAULT"
+    }
+   ],
+   "points": [
+    [
+     1793128620.0,
+     0.013023604335019999
+    ],
+    [
+     1793129340.0,
+     0.16281289969044802
+    ],
+    [
+     1793129400.0,
+     0.24021310816627203
+    ],
+    [
+     1793129460.0,
+     0.062160410342933
+    ],
+    [
+     1793129520.0,
+     0.000179077388329
+    ]
+   ]
+  },
+  {
+   "metric": "CPUUsed-vCPUHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v1_public-xIcmqp25LX"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    }
+   ],
+   "points": [
+    [
+     1793128620.0,
+     0.010641158888888998
+    ],
+    [
+     1793129340.0,
+     0.009120398611111
+    ],
+    [
+     1793129400.0,
+     0.002347808611111
+    ],
+    [
+     1793129460.0,
+     0.005060696388889
+    ],
+    [
+     1793129520.0,
+     8.463333333e-06
+    ]
+   ]
+  },
+  {
+   "metric": "MemoryUsed-GBHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v1_public-xIcmqp25LX"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    }
+   ],
+   "points": [
+    [
+     1793128620.0,
+     0.013023604335019999
+    ],
+    [
+     1793129340.0,
+     0.16281289969044802
+    ],
+    [
+     1793129400.0,
+     0.24021310816627203
+    ],
+    [
+     1793129460.0,
+     0.062160410342933
+    ],
+    [
+     1793129520.0,
+     0.000179077388329
+    ]
+   ]
+  }
+ ],
+ "env_limit": {
+  "note": "no AWS/Bedrock-AgentCore usage metrics listed for this runtime yet"
+ }
+}

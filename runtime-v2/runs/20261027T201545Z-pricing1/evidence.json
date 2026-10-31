@@ -1,0 +1,20 @@
+{
+ "window": [
+  "2026-10-27T20:11:05.653514+00:00",
+  "2026-10-27T20:38:29.393017+00:00"
+ ],
+ "collected_at": 1793133449.486214,
+ "logs.jsonl": {
+  "rows": 114
+ },
+ "cloudtrail.jsonl": {
+  "rows": 183,
+  "kept_saved": true
+ },
+ "usage.jsonl": {
+  "rows": 32
+ },
+ "metrics.json": {
+  "rows": 3
+ }
+}

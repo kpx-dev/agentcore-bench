@@ -1,0 +1,144 @@
+{
+ "run": "r1027191511",
+ "region": "us-west-2",
+ "started": 1793128511.242542,
+ "args": {
+  "profile": null,
+  "cmd": "run",
+  "region": "us-west-2",
+  "only": [
+   "q1",
+   "q2",
+   "q3",
+   "q4",
+   "q5",
+   "q6"
+  ],
+  "networks": [
+   "PUBLIC",
+   "VPC"
+  ],
+  "platforms": [
+   "V1",
+   "V2"
+  ],
+  "subnets": null,
+  "security_groups": null,
+  "vpc_cidr": "10.88.0.0/16",
+  "samples": 10,
+  "step_sessions": 2,
+  "gap_s": 2.0,
+  "quiet_s": 180,
+  "settle_min": 10,
+  "idle_timeout_s": 600,
+  "ballast_mb": 32,
+  "base_image": "public.ecr.aws/docker/library/python:3.12-slim",
+  "name": null,
+  "skip_extras": false,
+  "keep": false,
+  "keep_logs": false,
+  "fn": "<function cmd_run at 0x1096609a0>"
+ },
+ "account": "123456789012",
+ "caller": "arn:aws:sts::123456789012:assumed-role/Admin/poc-user",
+ "vpc": {
+  "id": "vpc-0example00000002",
+  "subnets": [
+   "subnet-0example00000003",
+   "subnet-0example00000004"
+  ],
+  "associations": [],
+  "sg_runtime": "sg-0example00000003",
+  "sg_endpoints": "sg-0example00000004",
+  "endpoints": {},
+  "ready": true,
+  "az_ids": [
+   "usw2-az1",
+   "usw2-az2"
+  ]
+ },
+ "vpc_config": {
+  "subnets": [
+   "subnet-0example00000003",
+   "subnet-0example00000004"
+  ],
+  "securityGroups": [
+   "sg-0example00000003"
+  ]
+ },
+ "usage": {
+  "sources": [],
+  "deliveries": [],
+  "log_group": "/aws/vendedlogs/bedrock-agentcore/runtime/USAGE_LOGS/agentcore-v2-poc-r1027191511"
+ },
+ "iam_roles": {},
+ "runtimes": {
+  "v2_endpoints": {
+   "id": "v2poc_r1027191511_v2_endpoints-uGN6uYHWoX",
+   "arn": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_endpoints-uGN6uYHWoX",
+   "name": "v2poc_r1027191511_v2_endpoints",
+   "platform": "V2",
+   "network": "PUBLIC",
+   "deleted": true
+  },
+  "v2_vpc": {
+   "id": "v2poc_r1027191511_v2_vpc-sn3qIKFuwQ",
+   "arn": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_vpc-sn3qIKFuwQ",
+   "name": "v2poc_r1027191511_v2_vpc",
+   "platform": "V2",
+   "network": "VPC",
+   "deleted": true
+  },
+  "v2_public": {
+   "id": "v2poc_r1027191511_v2_public-05D2bu79EY",
+   "arn": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v2_public-05D2bu79EY",
+   "name": "v2poc_r1027191511_v2_public",
+   "platform": "V2",
+   "network": "PUBLIC",
+   "deleted": true
+  },
+  "v1_vpc": {
+   "id": "v2poc_r1027191511_v1_vpc-n1re34A2Ym",
+   "arn": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v1_vpc-n1re34A2Ym",
+   "name": "v2poc_r1027191511_v1_vpc",
+   "platform": "V1",
+   "network": "VPC",
+   "deleted": true
+  },
+  "v1_public": {
+   "id": "v2poc_r1027191511_v1_public-xIcmqp25LX",
+   "arn": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_v1_public-xIcmqp25LX",
+   "name": "v2poc_r1027191511_v1_public",
+   "platform": "V1",
+   "network": "PUBLIC",
+   "deleted": true
+  },
+  "env_limit": {
+   "id": "v2poc_r1027191511_envlimit-HZJwPjE81O",
+   "arn": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_r1027191511_envlimit-HZJwPjE81O",
+   "name": "v2poc_r1027191511_envlimit",
+   "platform": "V2",
+   "deleted": true
+  }
+ },
+ "runtime_log_groups": [
+  "/aws/bedrock-agentcore/runtimes/v2poc_r1027191511_envlimit-HZJwPjE81O-DEFAULT",
+  "/aws/bedrock-agentcore/runtimes/v2poc_r1027191511_v1_public-xIcmqp25LX-DEFAULT",
+  "/aws/bedrock-agentcore/runtimes/v2poc_r1027191511_v1_vpc-n1re34A2Ym-DEFAULT",
+  "/aws/bedrock-agentcore/runtimes/v2poc_r1027191511_v2_endpoints-uGN6uYHWoX-DEFAULT",
+  "/aws/bedrock-agentcore/runtimes/v2poc_r1027191511_v2_endpoints-uGN6uYHWoX-LIVE",
+  "/aws/bedrock-agentcore/runtimes/v2poc_r1027191511_v2_endpoints-uGN6uYHWoX-test",
+  "/aws/bedrock-agentcore/runtimes/v2poc_r1027191511_v2_public-05D2bu79EY-DEFAULT",
+  "/aws/bedrock-agentcore/runtimes/v2poc_r1027191511_v2_vpc-sn3qIKFuwQ-DEFAULT"
+ ],
+ "finished": 1793131594.597603,
+ "teardown": {
+  "at": 1793131944.764195,
+  "left": [
+   "security group sg-0example00000004",
+   "security group sg-0example00000003",
+   "subnet subnet-0example00000003",
+   "subnet subnet-0example00000004"
+  ]
+ }
+}

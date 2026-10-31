@@ -1,0 +1,512 @@
+{
+ "run": "pricing1",
+ "region": "us-west-2",
+ "account": "123456789012",
+ "started": 1793132145.058767,
+ "samples": 5,
+ "q1_vpc": {
+  "runtimes": {
+   "v1_public": {
+    "create": "READY",
+    "create_s": 17.5,
+    "create_failure": null,
+    "sessions": 5,
+    "ok": 5,
+    "errors": [],
+    "cold_ms": {
+     "p50": 510.6,
+     "p75": 546.3,
+     "p90": 595.08,
+     "max": 627.6
+    },
+    "cold_ms_all": [
+     627.6,
+     546.3,
+     382.4,
+     510.6,
+     471.7
+    ],
+    "warm_p50_ms": 129.5,
+    "startup_overhead_p50_ms": 355.3,
+    "first_read_p50_ms": 3.0,
+    "second_read_p50_ms": 3.4,
+    "first_read_ms": [
+     3.0,
+     3.0,
+     3.0,
+     3.1,
+     3.1
+    ],
+    "file_mb": 32,
+    "egress": [
+     {
+      "target": "internet",
+      "host": "checkip.amazonaws.com",
+      "ips": [
+       "100.29.126.96",
+       "100.56.52.64",
+       "184.196.222.251",
+       "184.197.238.144",
+       "184.197.238.9",
+       "44.197.129.93",
+       "54.198.38.51",
+       "54.84.251.204"
+      ],
+      "private": false,
+      "dns_ms": 2.1,
+      "reachable": true,
+      "status": 200,
+      "egress_ip": "52.11.68.160",
+      "ms": 213.0
+     },
+     {
+      "target": "s3",
+      "host": "s3.us-west-2.amazonaws.com",
+      "ips": [
+       "16.15.43.93",
+       "16.15.44.255",
+       "3.5.84.23",
+       "3.5.84.245",
+       "3.5.87.81",
+       "52.218.219.64",
+       "52.92.227.16",
+       "52.92.243.112"
+      ],
+      "private": false,
+      "dns_ms": 2.1,
+      "reachable": true,
+      "status": 307,
+      "ms": 35.0
+     },
+     {
+      "target": "ecr_api",
+      "host": "api.ecr.us-west-2.amazonaws.com",
+      "ips": [
+       "34.223.26.161"
+      ],
+      "private": false,
+      "dns_ms": 2.3,
+      "reachable": true,
+      "status": 404,
+      "ms": 28.7
+     },
+     {
+      "target": "logs",
+      "host": "logs.us-west-2.amazonaws.com",
+      "ips": [
+       "35.92.124.205",
+       "35.92.124.226",
+       "44.234.123.122",
+       "44.234.123.123",
+       "44.234.123.75",
+       "44.234.123.76",
+       "44.234.123.79",
+       "44.234.123.85"
+      ],
+      "private": false,
+      "dns_ms": 0.3,
+      "reachable": true,
+      "status": 404,
+      "ms": 36.8
+     },
+     {
+      "target": "sts",
+      "host": "sts.us-west-2.amazonaws.com",
+      "ips": [
+       "44.248.101.199"
+      ],
+      "private": false,
+      "dns_ms": 1.9,
+      "reachable": true,
+      "status": 302,
+      "ms": 33.4
+     }
+    ]
+   },
+   "v2_public": {
+    "create": "READY",
+    "create_s": 197.4,
+    "create_failure": null,
+    "sessions": 5,
+    "ok": 5,
+    "errors": [],
+    "cold_ms": {
+     "p50": 2027.2,
+     "p75": 2529.5,
+     "p90": 2777.96,
+     "max": 2943.6
+    },
+    "cold_ms_all": [
+     2943.6,
+     2027.2,
+     2529.5,
+     2002.1,
+     2009.5
+    ],
+    "warm_p50_ms": 154.9,
+    "startup_overhead_p50_ms": 1872.3,
+    "first_read_p50_ms": 4362.3,
+    "second_read_p50_ms": 4.8,
+    "first_read_ms": [
+     2350.2,
+     2571.0,
+     4362.3,
+     4548.5,
+     5061.0
+    ],
+    "file_mb": 32,
+    "egress": [
+     {
+      "target": "internet",
+      "host": "checkip.amazonaws.com",
+      "ips": [
+       "100.29.126.96",
+       "100.56.52.64",
+       "18.207.58.255",
+       "184.197.238.9",
+       "34.227.92.189",
+       "44.197.129.93",
+       "54.198.38.51",
+       "54.84.251.204"
+      ],
+      "private": false,
+      "dns_ms": 343.3,
+      "reachable": true,
+      "status": 200,
+      "egress_ip": "52.27.252.130",
+      "ms": 1958.2
+     },
+     {
+      "target": "s3",
+      "host": "s3.us-west-2.amazonaws.com",
+      "ips": [
+       "16.15.34.49",
+       "16.15.39.156",
+       "3.5.87.38",
+       "52.218.181.48",
+       "52.92.179.104",
+       "52.92.190.40",
+       "52.92.203.16",
+       "52.92.227.200"
+      ],
+      "private": false,
+      "dns_ms": 343.2,
+      "reachable": true,
+      "status": 307,
+      "ms": 1789.6
+     },
+     {
+      "target": "ecr_api",
+      "host": "api.ecr.us-west-2.amazonaws.com",
+      "ips": [
+       "34.223.24.13"
+      ],
+      "private": false,
+      "dns_ms": 343.0,
+      "reachable": true,
+      "status": 404,
+      "ms": 1795.6
+     },
+     {
+      "target": "logs",
+      "host": "logs.us-west-2.amazonaws.com",
+      "ips": [
+       "35.92.124.232",
+       "44.234.123.102",
+       "44.234.123.107",
+       "44.234.123.110",
+       "44.234.123.126",
+       "44.234.123.65",
+       "44.234.123.76",
+       "44.234.123.80"
+      ],
+      "private": false,
+      "dns_ms": 342.7,
+      "reachable": true,
+      "status": 404,
+      "ms": 1793.1
+     },
+     {
+      "target": "sts",
+      "host": "sts.us-west-2.amazonaws.com",
+      "ips": [
+       "44.248.101.181"
+      ],
+      "private": false,
+      "dns_ms": 342.7,
+      "reachable": true,
+      "status": 302,
+      "ms": 1789.8
+     }
+    ]
+   }
+  },
+  "v2_vpc_minus_public_ms": {
+   "p50": null,
+   "p75": null,
+   "p90": null
+  },
+  "v1_vpc_minus_public_ms": {
+   "p50": null,
+   "p75": null,
+   "p90": null
+  },
+  "answer": "Not tested in this run."
+ },
+ "q2_prestart": {
+  "runtimes": {
+   "v1_public": {
+    "platform": "V1",
+    "sessions": 5,
+    "started": {
+     "pre-started instance": 5
+    },
+    "distinct_startup_tokens": 5,
+    "logs_collected": true,
+    "snapshot_build_boots": 0,
+    "snapshot_build_test_restores": 0,
+    "boots_before_first_session": 10,
+    "restores_before_first_session": 0,
+    "process_age_at_first_request_s": {
+     "p50": 279.3600001335144,
+     "min": 272.74000000953674,
+     "max": 285.53200006484985
+    },
+    "ran_before_freeze_s": {
+     "p50": 3.2880000000000003
+    },
+    "frozen_s": {
+     "p50": 275.945
+    },
+    "resumed_before_first_request_s": {
+     "p50": 0.126,
+     "max": 0.172,
+     "n_on_demand": 5
+    },
+    "cold_p50_ms": 510.6,
+    "quiet_window_s": 30
+   },
+   "v2_public": {
+    "platform": "V2",
+    "sessions": 5,
+    "started": {
+     "snapshot restore": 5
+    },
+    "distinct_startup_tokens": 2,
+    "logs_collected": true,
+    "snapshot_build_boots": 2,
+    "snapshot_build_test_restores": 2,
+    "boots_before_first_session": 0,
+    "restores_before_first_session": 0,
+    "process_age_at_first_request_s": {
+     "p50": 159.43300008773804,
+     "min": 137.92199993133545,
+     "max": 174.27099990844727
+    },
+    "ran_before_freeze_s": {
+     "p50": 69.227
+    },
+    "frozen_s": {
+     "p50": 90.149
+    },
+    "resumed_before_first_request_s": {
+     "p50": 0.057,
+     "max": 0.082,
+     "n_on_demand": 5
+    },
+    "cold_p50_ms": 2027.2,
+    "quiet_window_s": 30
+   }
+  },
+  "answer": "**Every new session restores on demand; no pre-started or pre-restored V2 instances were seen.** 5/5 new V2 sessions restored the version's snapshot (sessions shared 2 snapshot copies per runtime), each restored at most 0.08 s before its first request arrived (5/5 \u22642 s), and before the first session nothing was booted or restored outside the snapshot build. V1, for comparison, does keep a warm pool: 5/5 V1 sessions landed on their own instance that had been booted ahead of time (median 4.7 min before the session, newest 4.5 min), ran ~3.3 s, was frozen, and was resumed ~0.13 s before the first request; 10 V1 instances had booted before the first session was even sent. At this low, sequential load that pool made V1's cold invoke (p50 511 ms) faster than V2's (p50 2.03 s)."
+ },
+ "q3_rollback": {
+  "answer": "Not tested in this run."
+ },
+ "q4_same_tag": {
+  "answer": "Not tested in this run."
+ },
+ "q5_endpoints": {
+  "answer": "Not tested in this run."
+ },
+ "q6_pricing": {
+  "snapshot_builds": [
+   {
+    "rt": "v2_public",
+    "action": "create",
+    "start": 1793132227.5566819,
+    "end": 1793132424.925022,
+    "minutes": 3.3,
+    "sessions_nearby": false,
+    "boots": 2,
+    "usage_delivered": false
+   }
+  ],
+  "quiet_build_minutes": 3.3,
+  "usage_records": 32,
+  "usage": {
+   "v1_public": {
+    "records": 32,
+    "sessions": 5,
+    "vcpu_h": 0.006272,
+    "gb_h": 0.008098,
+    "no_session": 0,
+    "not_our_session": 0,
+    "in_builds": 0,
+    "est_usd": 0.000638
+   }
+  },
+  "per_session": {
+   "sessions": 5,
+   "metered_seconds_p50": 5.99,
+   "gb_h_p50": 0.0016192343292429998,
+   "vcpu_h_p50": 0.0012320186111119999,
+   "peak_gb_p50": 1.2157569625248,
+   "peak_gb_max": 1.232685300170909,
+   "usd_p50": 0.00018453458759877235
+  },
+  "per_platform": {
+   "V1": {
+    "sessions": 5,
+    "metered_seconds_p50": 5.99,
+    "first_second_gb_p50": 0.66289469535,
+    "first_second_vcpu_p50": 1.1781969999983999,
+    "steady_gb_p50": 1.0286420132664,
+    "metered_after_last_reply_s_p50": null,
+    "pre_session_seconds_p50": 5.99,
+    "pre_session_lead_s_p50": 280.828733921051,
+    "in_session_seconds_p50": 0.0,
+    "gb_h_p50": 0.0016192343292429998,
+    "vcpu_h_p50": 0.0012320186111119999,
+    "usd_p50": 0.0001255472734553126
+   }
+  },
+  "last_usage_record": 1793132186.158,
+  "metric_series_found": true,
+  "metric_usage_during_builds": [],
+  "costs": null,
+  "prices": {
+   "V1": {
+    "vcpu_h": 0.0895,
+    "gb_h": 0.00945
+   },
+   "V2": {
+    "vcpu_h": 0.1276,
+    "gb_h": 0.0169
+   }
+  },
+  "pricing_url": "https://aws.amazon.com/bedrock/agentcore/pricing/",
+  "answer": "All 32 per-second usage records AgentCore delivered (V1 \u00b7 PUBLIC) belong to sessions this PoC opened (0 for any other session, 0 with no session); no V2 snapshot build is covered by the records delivered so far. On V1 the warm-pool instance's boot is metered and billed to the session that later claims it: each V1 session carried 6 s of records timestamped 4.7 min before its first call (~1.03 GB, 1.2+ vCPU while booting), and nothing for the time it sat paused (records for the sessions' own active seconds had not been delivered when the run collected them). CloudWatch MemoryUsed/CPUUsed showed 0 non-zero minutes inside those builds. Cost Explorer not checked yet (run `poc.py pricing` a day later). The pricing page has no snapshot line item, and V2 bills at its own rates ($0.1276/vCPU-h, $0.0169/GB-h vs V1 $0.0895, $0.00945). This is evidence of what was metered, not a pricing commitment."
+ },
+ "extras": {
+  "env_limit": [
+   {
+    "t": 1793132425.636205,
+    "kind": "extra_env_limit",
+    "bytes": 4500,
+    "accepted": false,
+    "error_code": "ValidationException",
+    "error": "Environment variables exceed the maximum size of 4000 bytes. Current size: 4500 bytes."
+   },
+   {
+    "t": 1793132431.168412,
+    "kind": "extra_env_limit",
+    "bytes": 3000,
+    "accepted": true,
+    "status": "CREATE_FAILED",
+    "failure_reason": "The environment variable payload is 3004 bytes, exceeding the 2560-byte maximum supported for V2 agents. Reduce the total size of the configured environment variables and retry.",
+    "seconds": 6.1
+   }
+  ],
+  "unsigned_invoke": {
+   "t": 1793132425.103561,
+   "kind": "extra_anonymous_invoke",
+   "rt": "v1_public",
+   "status": 403,
+   "error_type": "AccessDeniedException",
+   "body": "{\"message\":\"Missing Authentication Token\"}"
+  },
+  "shared_startup_state": {
+   "sessions": 5,
+   "distinct_import_time_uuids": {
+    "V2 \u00b7 PUBLIC": 2
+   },
+   "hostnames": [
+    "localhost"
+   ],
+   "pids": [
+    "1"
+   ],
+   "distinct_boot_ids": 2
+  },
+  "startup_code_runs_per_v2_build": {
+   "v2_public": 2
+  },
+  "ready_times": [
+   {
+    "rt": "v1_public",
+    "action": "create",
+    "platform": "V1",
+    "outcome": "READY",
+    "seconds": 17.5
+   },
+   {
+    "rt": "v2_public",
+    "action": "create",
+    "platform": "V2",
+    "outcome": "READY",
+    "seconds": 197.4
+   }
+  ],
+  "timeline": [
+   {
+    "rt": "v2_public",
+    "image_pulls_s": [
+     10,
+     89,
+     89,
+     89,
+     89
+    ],
+    "boots_s": [
+     92,
+     93
+    ],
+    "first_ping_after_boot_s": [
+     1.7,
+     1.6
+    ],
+    "snapshot_taken_s": [
+     162,
+     171
+    ],
+    "validation_restores_s": [
+     172,
+     182
+    ],
+    "ready_s": 197,
+    "first_session_s": 228
+   }
+  ]
+ },
+ "evidence": {
+  "window": [
+   "2026-10-27T20:11:05.653514+00:00",
+   "2026-10-27T20:38:29.393017+00:00"
+  ],
+  "collected_at": 1793133449.486214,
+  "logs.jsonl": {
+   "rows": 114
+  },
+  "cloudtrail.jsonl": {
+   "rows": 183,
+   "kept_saved": true
+  },
+  "usage.jsonl": {
+   "rows": 32
+  },
+  "metrics.json": {
+   "rows": 3
+  }
+ }
+}

@@ -1,0 +1,326 @@
+{
+ "run_id": "20261013T170040Z",
+ "strategy": "tabs",
+ "run_dir": "20261013T170040Z-tabs",
+ "session_id": "01M4V3B4376QF2A1EYW09V69T6",
+ "region": "us-west-2",
+ "browser_id": "aws.browser.v1",
+ "params": {
+  "step_mb": 250,
+  "interval_s": 10.0,
+  "max_mb": 500,
+  "alloc_kind": "arraybuffer",
+  "fill": "random",
+  "sample_interval_s": 2.0,
+  "memdump_interval_s": 6.0,
+  "host_interval_s": 5.0
+ },
+ "env": {
+  "chrome_version": "148.0.7778.258",
+  "hardwareConcurrency": 1,
+  "deviceMemoryGb": null,
+  "jsHeapSizeLimitMb": 2222.0611572265625,
+  "connect_ms": 690
+ },
+ "host_caps": {
+  "meminfo_readable": true,
+  "block_devices": [
+   "loop0",
+   "loop1",
+   "loop2",
+   "loop3",
+   "loop4",
+   "loop5",
+   "loop6",
+   "loop7",
+   "vda",
+   "vdb"
+  ],
+  "zram_devices": [],
+  "blk_vda_size_gb": 1.66,
+  "blk_vda_readonly": true,
+  "blk_vdb_size_gb": 16.0,
+  "blk_vdb_readonly": false,
+  "zswap_enabled": "N",
+  "ksm_run": "0",
+  "thp_enabled": "always [madvise] never",
+  "kernel_swap_support": true,
+  "mem_total_mb": 3999.4
+ },
+ "valid": true,
+ "mode": "no_failure",
+ "mode_text": "no failure up to the configured limit",
+ "oom_inferred": false,
+ "symptom": null,
+ "avail_at_failure_pct": null,
+ "memory_exhausted": false,
+ "cache_evicted_pct": -1.786804725872826,
+ "anon_share_pct": 23.51352702905436,
+ "free_floor_pct": 4.170625593839076,
+ "probe_tail": {
+  "p50": 44.6,
+  "max": 46.2,
+  "n": 5
+ },
+ "browser_probe_tail": {
+  "p50": 40.0,
+  "max": 52.5,
+  "n": 5
+ },
+ "failing_step_ms": null,
+ "probe_ramp": {
+  "p50": 43.4,
+  "p95": 44.480000000000004,
+  "max": 44.6,
+  "n": 3
+ },
+ "browser_probe_ramp": {
+  "p50": 40.349999999999994,
+  "p95": 40.754999999999995,
+  "max": 40.8,
+  "n": 2
+ },
+ "slowdown_shape": "flat",
+ "gradual_reasons": [],
+ "cliff_reasons": [],
+ "failure_event": null,
+ "failure_elapsed_s": null,
+ "failure_utc": null,
+ "crash": null,
+ "vanished_processes": [],
+ "alloc_at_failure_mb": 500.0,
+ "in_flight_target_mb": null,
+ "max_allocated_ok_mb": 500.0,
+ "readings_at_failure": {
+  "cdp_heap_mb": null,
+  "browser_pmf_mb": null,
+  "max_renderer_pmf_mb": null,
+  "host_mem_free_mb": null,
+  "host_mem_avail_est_mb": null,
+  "host_mem_inuse_excl_cache_mb": null,
+  "host_anon_mb": null,
+  "host_file_mb": null,
+  "cloudwatch_mem_mb": null,
+  "usage_log_mem_mb": null
+ },
+ "failure_snapshot": {},
+ "recovery": null,
+ "recovery_detail": null,
+ "survivors": null,
+ "disconnected": false,
+ "session_status_after": null,
+ "mem_total_mb": 3999.4,
+ "avail_est_at_start_mb": 3075.7,
+ "vm_free_min_mb": 166.8,
+ "slowdown": "no",
+ "slow_reasons": [],
+ "slowdown_onset_alloc_mb": null,
+ "probe": {
+  "baseline_p50": 42.7,
+  "pre_failure_p50": 43.05,
+  "pre_failure_p95": 45.78,
+  "pre_failure_max": 46.2,
+  "n_baseline": 5,
+  "n_pre": 8,
+  "ratio_p50": 1.0081967213114753
+ },
+ "browser_probe": {
+  "baseline_p50": 41.4,
+  "pre_failure_p50": 40.8,
+  "pre_failure_p95": 43.1,
+  "pre_failure_max": 43.7,
+  "n_baseline": 5,
+  "n_pre": 7,
+  "ratio_p50": 0.9855072463768115
+ },
+ "host_probe": {
+  "baseline_p50": 239.95,
+  "pre_failure_p50": 227.6,
+  "pre_failure_p95": 250.08,
+  "pre_failure_max": 253.4,
+  "n_baseline": 2,
+  "n_pre": 5,
+  "ratio_p50": 0.9485309439466556
+ },
+ "chrome_cpu_idle": {
+  "baseline_p50": 8.45,
+  "pre_failure_p50": 10.8,
+  "pre_failure_p95": 19.425,
+  "pre_failure_max": 21.6,
+  "n_baseline": 4,
+  "n_pre": 6,
+  "ratio_p50": 1.2781065088757397
+ },
+ "step_ms_first5_p50": 4145.15,
+ "step_ms_last3_p50": 4145.15,
+ "timeouts_before_failure": 0,
+ "paged": "not applicable (ceiling not reached)",
+ "swap_cached_max_mb": 0.0,
+ "disk_write_mb_s": {
+  "baseline_p50": 4.06,
+  "pre_failure_p50": 0.05,
+  "pre_failure_max": 0.63
+ },
+ "disk_read_mb_s": {
+  "baseline_p50": 0.02,
+  "pre_failure_p50": 0.32
+ },
+ "beyond_ram": false,
+ "beyond_avail": false,
+ "write_surge": false,
+ "aftermath": {
+  "cumulative_alloc_mb": {
+   "growth_last_60s": 0.0
+  },
+  "host_mem_inuse_excl_cache_mb": {
+   "growth_last_60s": 777.4000000000001
+  },
+  "browser_pmf_mb": {
+   "growth_last_60s": 426.4
+  }
+ },
+ "memory_delta_after_failure_mb": null,
+ "allocs_after_failure": 0,
+ "cloudwatch": {
+  "namespaces": [
+   "AWS/Bedrock-AgentCore"
+  ],
+  "selected": {
+   "memory": {
+    "signal": "memory",
+    "namespace": "AWS/Bedrock-AgentCore",
+    "name": "MemoryUsed-GBHours",
+    "dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Service",
+      "Value": "AgentCore.Browser"
+     }
+    ],
+    "scope": "resource",
+    "stat": "Sum",
+    "unit_kind": "gb_hours",
+    "key": "AWS/Bedrock-AgentCore:MemoryUsed-GBHours[Resource=aws.browser.v1,Service=AgentCore.Browser]"
+   },
+   "cpu": {
+    "signal": "cpu",
+    "namespace": "AWS/Bedrock-AgentCore",
+    "name": "CPUUsed-vCPUHours",
+    "dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Service",
+      "Value": "AgentCore.Browser"
+     }
+    ],
+    "scope": "resource",
+    "stat": "Sum",
+    "unit_kind": "vcpu_hours",
+    "key": "AWS/Bedrock-AgentCore:CPUUsed-vCPUHours[Resource=aws.browser.v1,Service=AgentCore.Browser]"
+   },
+   "sessions": {
+    "signal": "sessions",
+    "namespace": "AWS/Bedrock-AgentCore",
+    "name": "ActiveSessionCount",
+    "dimensions": [
+     {
+      "Name": "Service",
+      "Value": "AgentCore.Browser"
+     }
+    ],
+    "scope": "service",
+    "stat": "Maximum",
+    "unit_kind": "count",
+    "key": "AWS/Bedrock-AgentCore:ActiveSessionCount[Service=AgentCore.Browser]"
+   }
+  },
+  "metrics_listed": 53,
+  "memory_points_in_session": 2,
+  "cpu_points": 6,
+  "memory_peak_mb": 3186.4106159299586,
+  "covers_session": true,
+  "usage_log_groups": [
+   "/aws/vendedlogs/bedrock-agentcore/browser/USAGE_LOGS/aws.browser.v1"
+  ],
+  "usage_log_records": 43,
+  "usage_log_peak_mb": 4103.352320001638,
+  "other_ready_sessions_at_start": 0
+ },
+ "billing": {
+  "price_gb_hour": 0.00945,
+  "price_vcpu_hour": 0.0895,
+  "min_billed_gb": 0.125,
+  "billed_seconds": 42,
+  "memory_by_signal": {
+   "chrome_pmf": {
+    "peak_gb": 1.059,
+    "mean_gb": 0.637,
+    "memory_cost_usd": 7e-05
+   },
+   "vm_in_use_excl_cache": {
+    "peak_gb": 2.47,
+    "mean_gb": 1.385,
+    "memory_cost_usd": 0.000153
+   },
+   "vm_used_incl_cache": {
+    "peak_gb": 3.802,
+    "mean_gb": 3.099,
+    "memory_cost_usd": 0.000342
+   },
+   "aws_usage_logs": {
+    "peak_gb": 4.007,
+    "mean_gb": 4.001,
+    "memory_cost_usd": 0.000442
+   }
+  },
+  "chrome_cpu_vcpu_seconds": 9.0,
+  "chrome_cpu_measured_seconds": 32.6,
+  "cpu_cost_usd_from_chrome": 0.000224,
+  "billed_memory_mb": {
+   "min": 2587.9,
+   "min_whole_seconds": 4092.7,
+   "p25": 4094.8,
+   "median": 4096.0,
+   "max": 4103.4,
+   "n_records": 43,
+   "share_at_full_vm": 0.953
+  },
+  "billed_memory_is_full_vm": true,
+  "billed_memory_iqr_pct": 0.05,
+  "billed_vcpu": {
+   "min": 0.0,
+   "median": 0.332,
+   "max": 1.002
+  },
+  "cloudwatch_memory_gb_hours": 0.13742,
+  "cloudwatch_memory_cost_usd": 0.001299,
+  "cloudwatch_cpu_vcpu_hours": 0.016012,
+  "cloudwatch_cpu_cost_usd": 0.001433
+ },
+ "baseline_gb": 0.90205078125,
+ "counts": {
+  "samples": 56,
+  "memdumps": 5,
+  "host_samples": 6,
+  "page_samples": 17,
+  "events": 1
+ },
+ "events": [
+  {
+   "elapsed_s": 36.6,
+   "event": "max_mb_reached",
+   "detail": {
+    "terminal": false,
+    "cumulative_alloc_mb": 500
+   }
+  }
+ ],
+ "mode_short": "No failure up to the configured limit",
+ "summary_line": "[tabs] failure mode: no failure up to the configured limit | paged to disk: not applicable (ceiling not reached) | slowed before failing: no"
+}

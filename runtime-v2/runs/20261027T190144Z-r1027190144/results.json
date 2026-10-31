@@ -1,0 +1,223 @@
+{
+ "run": "r1027190144",
+ "region": "us-west-2",
+ "account": "123456789012",
+ "started": 1793127704.23753,
+ "samples": 10,
+ "q1_vpc": {
+  "runtimes": {
+   "v1_public": {
+    "create": null,
+    "create_s": null,
+    "create_failure": null,
+    "sessions": 0,
+    "ok": 0,
+    "errors": [],
+    "cold_ms": {
+     "p50": null,
+     "p75": null,
+     "p90": null,
+     "max": null
+    },
+    "cold_ms_all": [],
+    "warm_p50_ms": null,
+    "startup_overhead_p50_ms": null,
+    "first_read_p50_ms": null,
+    "second_read_p50_ms": null,
+    "first_read_ms": [],
+    "file_mb": 0,
+    "egress": null
+   },
+   "v1_vpc": {
+    "create": null,
+    "create_s": null,
+    "create_failure": null,
+    "sessions": 0,
+    "ok": 0,
+    "errors": [],
+    "cold_ms": {
+     "p50": null,
+     "p75": null,
+     "p90": null,
+     "max": null
+    },
+    "cold_ms_all": [],
+    "warm_p50_ms": null,
+    "startup_overhead_p50_ms": null,
+    "first_read_p50_ms": null,
+    "second_read_p50_ms": null,
+    "first_read_ms": [],
+    "file_mb": 0,
+    "egress": null
+   },
+   "v2_public": {
+    "create": null,
+    "create_s": null,
+    "create_failure": null,
+    "sessions": 0,
+    "ok": 0,
+    "errors": [],
+    "cold_ms": {
+     "p50": null,
+     "p75": null,
+     "p90": null,
+     "max": null
+    },
+    "cold_ms_all": [],
+    "warm_p50_ms": null,
+    "startup_overhead_p50_ms": null,
+    "first_read_p50_ms": null,
+    "second_read_p50_ms": null,
+    "first_read_ms": [],
+    "file_mb": 0,
+    "egress": null
+   },
+   "v2_vpc": {
+    "create": null,
+    "create_s": null,
+    "create_failure": null,
+    "sessions": 0,
+    "ok": 0,
+    "errors": [],
+    "cold_ms": {
+     "p50": null,
+     "p75": null,
+     "p90": null,
+     "max": null
+    },
+    "cold_ms_all": [],
+    "warm_p50_ms": null,
+    "startup_overhead_p50_ms": null,
+    "first_read_p50_ms": null,
+    "second_read_p50_ms": null,
+    "first_read_ms": [],
+    "file_mb": 0,
+    "egress": null
+   }
+  },
+  "v2_vpc_minus_public_ms": {
+   "p50": null,
+   "p75": null,
+   "p90": null
+  },
+  "v1_vpc_minus_public_ms": {
+   "p50": null,
+   "p75": null,
+   "p90": null
+  },
+  "answer": "**No**: the V2 runtime in VPC mode ended None: None"
+ },
+ "q2_prestart": {
+  "runtimes": {},
+  "answer": "Not tested in this run."
+ },
+ "q3_rollback": {
+  "answer": "Not tested in this run."
+ },
+ "q4_same_tag": {
+  "answer": "Not tested in this run."
+ },
+ "q5_endpoints": {
+  "answer": "Not tested in this run."
+ },
+ "q6_pricing": {
+  "snapshot_builds": [
+   {
+    "rt": "v2_endpoints",
+    "action": "create",
+    "start": 1793127779.1157131,
+    "end": 1793127976.960609,
+    "minutes": 3.3,
+    "sessions_nearby": false,
+    "boots": 0,
+    "usage_delivered": false
+   }
+  ],
+  "quiet_build_minutes": 3.3,
+  "usage_records": 0,
+  "usage": {},
+  "per_session": {
+   "sessions": 0,
+   "metered_seconds_p50": null,
+   "gb_h_p50": null,
+   "vcpu_h_p50": null,
+   "peak_gb_p50": null,
+   "peak_gb_max": null,
+   "usd_p50": null
+  },
+  "per_platform": {},
+  "last_usage_record": 0,
+  "metric_series_found": false,
+  "metric_usage_during_builds": [],
+  "costs": null,
+  "prices": {
+   "V1": {
+    "vcpu_h": 0.0895,
+    "gb_h": 0.00945
+   },
+   "V2": {
+    "vcpu_h": 0.1276,
+    "gb_h": 0.0169
+   }
+  },
+  "pricing_url": "https://aws.amazon.com/bedrock/agentcore/pricing/",
+  "answer": "USAGE_LOGS records not collected (yet). Cost Explorer not checked yet (run `poc.py pricing` a day later). The pricing page has no snapshot line item, and V2 bills at its own rates ($0.1276/vCPU-h, $0.0169/GB-h vs V1 $0.0895, $0.00945). This is evidence of what was metered, not a pricing commitment."
+ },
+ "extras": {
+  "startup_code_runs_per_v2_build": {
+   "v2_endpoints": 0,
+   "v2_public": 0,
+   "v2_vpc": 0
+  },
+  "ready_times": [
+   {
+    "rt": "v2_endpoints",
+    "action": "create",
+    "platform": "V2",
+    "outcome": "READY",
+    "seconds": 197.8
+   },
+   {
+    "rt": "v1_vpc",
+    "action": "create",
+    "platform": "V1",
+    "outcome": null,
+    "seconds": null
+   },
+   {
+    "rt": "v2_public",
+    "action": "create",
+    "platform": "V2",
+    "outcome": null,
+    "seconds": null
+   },
+   {
+    "rt": "v1_public",
+    "action": "create",
+    "platform": "V1",
+    "outcome": null,
+    "seconds": null
+   },
+   {
+    "rt": "v2_vpc",
+    "action": "create",
+    "platform": "V2",
+    "outcome": null,
+    "seconds": null
+   }
+  ],
+  "timeline": [
+   {
+    "rt": "v2_endpoints",
+    "image_pulls_s": [],
+    "boots_s": [],
+    "first_ping_after_boot_s": [],
+    "snapshot_taken_s": [],
+    "validation_restores_s": [],
+    "ready_s": 198,
+    "first_session_s": null
+   }
+  ]
+ },
+ "evidence": {}
+}

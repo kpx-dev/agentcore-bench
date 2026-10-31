@@ -1,0 +1,21 @@
+{
+ "window": [
+  "2026-10-27T19:11:44.934977+00:00",
+  "2026-10-27T20:13:51.764863+00:00"
+ ],
+ "collected_at": 1793131971.858946,
+ "logs.jsonl": {
+  "rows": 706,
+  "kept_saved": true
+ },
+ "cloudtrail.jsonl": {
+  "rows": 1260,
+  "kept_saved": true
+ },
+ "usage.jsonl": {
+  "error": "An error occurred (ResourceNotFoundException) when calling the FilterLogEvents operation: The specified log group does not exist."
+ },
+ "metrics.json": {
+  "rows": 6
+ }
+}

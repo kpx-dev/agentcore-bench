@@ -1,0 +1,80 @@
+{
+ "run": "pricing1",
+ "region": "us-west-2",
+ "started": 1793132145.058767,
+ "args": {
+  "profile": null,
+  "cmd": "run",
+  "region": "us-west-2",
+  "only": [
+   "q2",
+   "q6"
+  ],
+  "networks": [
+   "PUBLIC"
+  ],
+  "platforms": [
+   "V1",
+   "V2"
+  ],
+  "subnets": null,
+  "security_groups": null,
+  "vpc_cidr": "10.88.0.0/16",
+  "samples": 5,
+  "step_sessions": 2,
+  "gap_s": 2.0,
+  "quiet_s": 30,
+  "settle_min": 12,
+  "idle_timeout_s": 600,
+  "ballast_mb": 32,
+  "base_image": "public.ecr.aws/docker/library/python:3.12-slim",
+  "name": "pricing1",
+  "skip_extras": false,
+  "keep": false,
+  "fn": "<function cmd_run at 0x10b9c0d60>"
+ },
+ "account": "123456789012",
+ "caller": "arn:aws:sts::123456789012:assumed-role/Admin/poc-user",
+ "usage": {
+  "sources": [],
+  "deliveries": [],
+  "log_group": "/aws/vendedlogs/bedrock-agentcore/runtime/USAGE_LOGS/agentcore-v2-poc-pricing1"
+ },
+ "iam_roles": {},
+ "runtimes": {
+  "v1_public": {
+   "id": "v2poc_pricing1_v1_public-WXK8cD3iku",
+   "arn": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_pricing1_v1_public-WXK8cD3iku",
+   "name": "v2poc_pricing1_v1_public",
+   "platform": "V1",
+   "network": "PUBLIC",
+   "deleted": true
+  },
+  "v2_public": {
+   "id": "v2poc_pricing1_v2_public-c7fMhw9tM0",
+   "arn": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_pricing1_v2_public-c7fMhw9tM0",
+   "name": "v2poc_pricing1_v2_public",
+   "platform": "V2",
+   "network": "PUBLIC",
+   "deleted": true
+  },
+  "env_3000": {
+   "id": "v2poc_pricing1_env_3000-F6m53o4vpu",
+   "arn": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_pricing1_env_3000-F6m53o4vpu",
+   "name": "v2poc_pricing1_env_3000",
+   "platform": "V2",
+   "network": "PUBLIC",
+   "deleted": true
+  }
+ },
+ "runtime_log_groups": [
+  "/aws/bedrock-agentcore/runtimes/v2poc_pricing1_env_3000-F6m53o4vpu-DEFAULT",
+  "/aws/bedrock-agentcore/runtimes/v2poc_pricing1_v1_public-WXK8cD3iku-DEFAULT",
+  "/aws/bedrock-agentcore/runtimes/v2poc_pricing1_v2_public-c7fMhw9tM0-DEFAULT"
+ ],
+ "finished": 1793133228.407346,
+ "teardown": {
+  "at": 1793134746.024881,
+  "left": []
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "v1_public": [
+  {
+   "metric": "CPUUsed-vCPUHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_pricing1_v1_public-WXK8cD3iku"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    }
+   ],
+   "points": [
+    [
+     1793132160.0,
+     0.006271703611110001
+    ]
+   ]
+  },
+  {
+   "metric": "MemoryUsed-GBHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_pricing1_v1_public-WXK8cD3iku"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    },
+    {
+     "Name": "Name",
+     "Value": "v2poc_pricing1_v1_public::DEFAULT"
+    }
+   ],
+   "points": [
+    [
+     1793132160.0,
+     0.008098474442279
+    ]
+   ]
+  },
+  {
+   "metric": "MemoryUsed-GBHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_pricing1_v1_public-WXK8cD3iku"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    }
+   ],
+   "points": [
+    [
+     1793132160.0,
+     0.008098474442279
+    ]
+   ]
+  },
+  {
+   "metric": "CPUUsed-vCPUHours",
+   "dims": [
+    {
+     "Name": "Resource",
+     "Value": "arn:aws:bedrock-agentcore:us-west-2:123456789012:runtime/v2poc_pricing1_v1_public-WXK8cD3iku"
+    },
+    {
+     "Name": "Service",
+     "Value": "AgentCore.Runtime"
+    },
+    {
+     "Name": "Name",
+     "Value": "v2poc_pricing1_v1_public::DEFAULT"
+    }
+   ],
+   "points": [
+    [
+     1793132160.0,
+     0.006271703611110001
+    ]
+   ]
+  }
+ ],
+ "v2_public": {
+  "note": "no AWS/Bedrock-AgentCore usage metrics listed for this runtime yet"
+ },
+ "env_3000": {
+  "note": "no AWS/Bedrock-AgentCore usage metrics listed for this runtime yet"
+ }
+}

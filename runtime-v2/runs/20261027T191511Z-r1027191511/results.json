@@ -1,0 +1,1938 @@
+{
+ "run": "r1027191511",
+ "region": "us-west-2",
+ "account": "123456789012",
+ "started": 1793128511.242542,
+ "samples": 10,
+ "q1_vpc": {
+  "runtimes": {
+   "v1_public": {
+    "create": "READY",
+    "create_s": 17.6,
+    "create_failure": null,
+    "sessions": 10,
+    "ok": 10,
+    "errors": [],
+    "cold_ms": {
+     "p50": 551.5,
+     "p75": 639.9499999999999,
+     "p90": 678.57,
+     "max": 706.2
+    },
+    "cold_ms_all": [
+     706.2,
+     538.3,
+     564.7,
+     675.5,
+     532.9,
+     656.3,
+     530.9,
+     445.1,
+     415.7,
+     590.9
+    ],
+    "warm_p50_ms": 136.95,
+    "startup_overhead_p50_ms": 430.45,
+    "first_read_p50_ms": 3.1500000000000004,
+    "second_read_p50_ms": 3.4,
+    "first_read_ms": [
+     3.0,
+     3.0,
+     3.0,
+     3.0,
+     3.1,
+     3.2,
+     3.2,
+     4.9,
+     5.0,
+     5.1
+    ],
+    "file_mb": 32,
+    "egress": [
+     {
+      "target": "internet",
+      "host": "checkip.amazonaws.com",
+      "ips": [
+       "100.29.126.96",
+       "100.56.52.64",
+       "18.207.58.255",
+       "184.197.238.144",
+       "184.197.238.9",
+       "34.227.92.189",
+       "44.208.158.126",
+       "54.84.251.204"
+      ],
+      "private": false,
+      "dns_ms": 1.3,
+      "reachable": true,
+      "status": 200,
+      "egress_ip": "52.37.92.126",
+      "ms": 209.9
+     },
+     {
+      "target": "s3",
+      "host": "s3.us-west-2.amazonaws.com",
+      "ips": [
+       "16.15.40.119",
+       "16.15.40.167",
+       "16.15.43.24",
+       "16.15.47.166",
+       "52.218.181.160",
+       "52.92.133.216",
+       "52.92.165.96",
+       "52.92.249.120"
+      ],
+      "private": false,
+      "dns_ms": 1.4,
+      "reachable": true,
+      "status": 307,
+      "ms": 33.3
+     },
+     {
+      "target": "ecr_api",
+      "host": "api.ecr.us-west-2.amazonaws.com",
+      "ips": [
+       "34.223.25.165"
+      ],
+      "private": false,
+      "dns_ms": 1.2,
+      "reachable": true,
+      "status": 404,
+      "ms": 39.6
+     },
+     {
+      "target": "logs",
+      "host": "logs.us-west-2.amazonaws.com",
+      "ips": [
+       "44.234.123.108",
+       "44.234.123.111",
+       "44.234.123.73",
+       "44.234.123.74",
+       "44.234.123.84",
+       "44.234.123.86",
+       "44.234.123.88",
+       "44.234.123.99"
+      ],
+      "private": false,
+      "dns_ms": 0.4,
+      "reachable": true,
+      "status": 404,
+      "ms": 39.9
+     },
+     {
+      "target": "sts",
+      "host": "sts.us-west-2.amazonaws.com",
+      "ips": [
+       "44.248.101.73"
+      ],
+      "private": false,
+      "dns_ms": 1.0,
+      "reachable": true,
+      "status": 302,
+      "ms": 38.1
+     }
+    ]
+   },
+   "v1_vpc": {
+    "create": "READY",
+    "create_s": 269.3,
+    "create_failure": null,
+    "sessions": 10,
+    "ok": 10,
+    "errors": [],
+    "cold_ms": {
+     "p50": 629.3499999999999,
+     "p75": 684.3,
+     "p90": 800.29,
+     "max": 903.7
+    },
+    "cold_ms_all": [
+     646.2,
+     639.3,
+     697.0,
+     788.8,
+     494.0,
+     502.0,
+     435.5,
+     903.7,
+     619.4,
+     432.6
+    ],
+    "warm_p50_ms": 142.95,
+    "startup_overhead_p50_ms": 465.2,
+    "first_read_p50_ms": 3.1500000000000004,
+    "second_read_p50_ms": 3.45,
+    "first_read_ms": [
+     3.0,
+     3.0,
+     3.1,
+     3.1,
+     3.1,
+     3.2,
+     3.2,
+     4.9,
+     4.9,
+     5.1
+    ],
+    "file_mb": 32,
+    "egress": [
+     {
+      "target": "internet",
+      "host": "checkip.amazonaws.com",
+      "ips": [
+       "100.56.52.64",
+       "18.207.58.255",
+       "184.196.222.251",
+       "184.197.238.9",
+       "34.227.92.189",
+       "44.208.158.126",
+       "54.172.38.99",
+       "54.198.38.51"
+      ],
+      "private": false,
+      "dns_ms": 7.9,
+      "reachable": false,
+      "error": "TimeoutError: timed out",
+      "ms": 24048.8
+     },
+     {
+      "target": "s3",
+      "host": "s3.us-west-2.amazonaws.com",
+      "ips": [
+       "16.12.100.24",
+       "16.15.44.58",
+       "16.15.45.161",
+       "3.5.81.0",
+       "3.5.87.58",
+       "52.92.162.48",
+       "52.92.233.200",
+       "52.92.240.176"
+      ],
+      "private": false,
+      "dns_ms": 5.8,
+      "reachable": true,
+      "status": 307,
+      "ms": 31.7
+     },
+     {
+      "target": "ecr_api",
+      "host": "api.ecr.us-west-2.amazonaws.com",
+      "ips": [
+       "10.88.0.158",
+       "10.88.1.75"
+      ],
+      "private": true,
+      "dns_ms": 5.7,
+      "reachable": true,
+      "status": 404,
+      "ms": 30.7
+     },
+     {
+      "target": "logs",
+      "host": "logs.us-west-2.amazonaws.com",
+      "ips": [
+       "10.88.0.41",
+       "10.88.1.174"
+      ],
+      "private": true,
+      "dns_ms": 0.3,
+      "reachable": true,
+      "status": 404,
+      "ms": 36.0
+     },
+     {
+      "target": "sts",
+      "host": "sts.us-west-2.amazonaws.com",
+      "ips": [
+       "44.248.100.60"
+      ],
+      "private": false,
+      "dns_ms": 7.4,
+      "reachable": false,
+      "error": "TimeoutError: timed out",
+      "ms": 3035.1
+     }
+    ]
+   },
+   "v2_public": {
+    "create": "READY",
+    "create_s": 197.4,
+    "create_failure": null,
+    "sessions": 10,
+    "ok": 10,
+    "errors": [],
+    "cold_ms": {
+     "p50": 2065.55,
+     "p75": 2220.7,
+     "p90": 2419.45,
+     "max": 2826.7
+    },
+    "cold_ms_all": [
+     2826.7,
+     2037.0,
+     2237.5,
+     1940.6,
+     1872.1,
+     2094.1,
+     1684.8,
+     2170.3,
+     2374.2,
+     1935.9
+    ],
+    "warm_p50_ms": 158.7,
+    "startup_overhead_p50_ms": 1918.0,
+    "first_read_p50_ms": 3131.8,
+    "second_read_p50_ms": 4.0,
+    "first_read_ms": [
+     1990.5,
+     2226.7,
+     2238.2,
+     2519.0,
+     2938.2,
+     3325.4,
+     3461.0,
+     6179.0,
+     7839.7,
+     8657.5
+    ],
+    "file_mb": 32,
+    "egress": [
+     {
+      "target": "internet",
+      "host": "checkip.amazonaws.com",
+      "ips": [
+       "100.29.126.96",
+       "100.56.52.64",
+       "184.196.222.251",
+       "184.197.238.144",
+       "184.197.238.9",
+       "44.197.129.93",
+       "44.208.158.126",
+       "54.84.251.204"
+      ],
+      "private": false,
+      "dns_ms": 394.0,
+      "reachable": true,
+      "status": 200,
+      "egress_ip": "100.20.84.155",
+      "ms": 2698.4
+     },
+     {
+      "target": "s3",
+      "host": "s3.us-west-2.amazonaws.com",
+      "ips": [
+       "16.15.32.27",
+       "16.15.32.9",
+       "16.15.37.25",
+       "16.15.39.173",
+       "16.15.39.225",
+       "52.218.152.200",
+       "52.218.242.64",
+       "52.92.136.144"
+      ],
+      "private": false,
+      "dns_ms": 393.9,
+      "reachable": true,
+      "status": 307,
+      "ms": 2533.2
+     },
+     {
+      "target": "ecr_api",
+      "host": "api.ecr.us-west-2.amazonaws.com",
+      "ips": [
+       "34.223.27.162"
+      ],
+      "private": false,
+      "dns_ms": 393.9,
+      "reachable": true,
+      "status": 404,
+      "ms": 2534.2
+     },
+     {
+      "target": "logs",
+      "host": "logs.us-west-2.amazonaws.com",
+      "ips": [
+       "35.92.124.211",
+       "44.234.123.105",
+       "44.234.123.107",
+       "44.234.123.81",
+       "44.234.123.84",
+       "44.234.123.86",
+       "44.234.123.87",
+       "44.234.123.91"
+      ],
+      "private": false,
+      "dns_ms": 393.3,
+      "reachable": true,
+      "status": 404,
+      "ms": 2535.5
+     },
+     {
+      "target": "sts",
+      "host": "sts.us-west-2.amazonaws.com",
+      "ips": [
+       "44.248.101.11"
+      ],
+      "private": false,
+      "dns_ms": 393.3,
+      "reachable": true,
+      "status": 302,
+      "ms": 2531.1
+     }
+    ]
+   },
+   "v2_vpc": {
+    "create": "READY",
+    "create_s": 562.2,
+    "create_failure": null,
+    "sessions": 10,
+    "ok": 10,
+    "errors": [],
+    "cold_ms": {
+     "p50": 1785.4499999999998,
+     "p75": 1859.8249999999998,
+     "p90": 2158.71,
+     "max": 2436.9
+    },
+    "cold_ms_all": [
+     2127.8,
+     1777.3,
+     1793.6,
+     1808.0,
+     1708.0,
+     1697.1,
+     1614.9,
+     2436.9,
+     1877.1,
+     1643.7
+    ],
+    "warm_p50_ms": 157.39999999999998,
+    "startup_overhead_p50_ms": 1623.6499999999999,
+    "first_read_p50_ms": 40.0,
+    "second_read_p50_ms": 3.7,
+    "first_read_ms": [
+     37.2,
+     37.3,
+     37.7,
+     38.8,
+     39.9,
+     40.1,
+     40.2,
+     42.2,
+     7514.4,
+     7976.2
+    ],
+    "file_mb": 32,
+    "egress": [
+     {
+      "target": "internet",
+      "host": "checkip.amazonaws.com",
+      "ips": [
+       "100.29.126.96",
+       "184.196.222.251",
+       "184.197.238.144",
+       "34.227.92.189",
+       "44.197.129.93",
+       "44.208.158.126",
+       "54.172.38.99",
+       "54.198.38.51"
+      ],
+      "private": false,
+      "dns_ms": 583.7,
+      "reachable": false,
+      "error": "TimeoutError: timed out",
+      "ms": 26218.2
+     },
+     {
+      "target": "s3",
+      "host": "s3.us-west-2.amazonaws.com",
+      "ips": [
+       "16.15.32.9",
+       "16.15.40.5",
+       "16.15.43.17",
+       "3.5.81.204",
+       "52.92.149.56",
+       "52.92.169.40",
+       "52.92.186.152",
+       "52.92.188.184"
+      ],
+      "private": false,
+      "dns_ms": 583.8,
+      "reachable": true,
+      "status": 307,
+      "ms": 2161.7
+     },
+     {
+      "target": "ecr_api",
+      "host": "api.ecr.us-west-2.amazonaws.com",
+      "ips": [
+       "10.88.0.158",
+       "10.88.1.75"
+      ],
+      "private": true,
+      "dns_ms": 583.6,
+      "reachable": true,
+      "status": 404,
+      "ms": 2161.0
+     },
+     {
+      "target": "logs",
+      "host": "logs.us-west-2.amazonaws.com",
+      "ips": [
+       "10.88.0.41",
+       "10.88.1.174"
+      ],
+      "private": true,
+      "dns_ms": 583.6,
+      "reachable": true,
+      "status": 404,
+      "ms": 2155.8
+     },
+     {
+      "target": "sts",
+      "host": "sts.us-west-2.amazonaws.com",
+      "ips": [
+       "44.248.101.181"
+      ],
+      "private": false,
+      "dns_ms": 185.7,
+      "reachable": false,
+      "error": "TimeoutError: timed out",
+      "ms": 5163.1
+     }
+    ]
+   }
+  },
+  "v2_vpc_minus_public_ms": {
+   "p50": -280.10000000000036,
+   "p75": -360.875,
+   "p90": -260.7399999999998
+  },
+  "v1_vpc_minus_public_ms": {
+   "p50": 77.84999999999991,
+   "p75": 44.35000000000002,
+   "p90": 121.71999999999991
+  },
+  "answer": "**Yes.** V2 in VPC mode (private subnets, no internet; checked from inside the session: internet unreachable, ECR via its interface endpoint, S3 via the gateway endpoint) reached READY in 9.4 min and served 10/10 new sessions; cold-start invoke p50 1.79 s vs 2.07 s in PUBLIC (\u0394 p50 -280 ms, \u0394 p90 -261 ms); V2 PUBLIC reached READY in 3.3 min; for comparison V1 VPC vs PUBLIC: 629 ms vs 552 ms (\u0394 p50 +78 ms)."
+ },
+ "q2_prestart": {
+  "runtimes": {
+   "v1_public": {
+    "platform": "V1",
+    "sessions": 10,
+    "started": {
+     "pre-started instance": 10
+    },
+    "distinct_startup_tokens": 10,
+    "logs_collected": true,
+    "snapshot_build_boots": 0,
+    "snapshot_build_test_restores": 0,
+    "boots_before_first_session": 10,
+    "restores_before_first_session": 0,
+    "process_age_at_first_request_s": {
+     "p50": 746.2810000181198,
+     "min": 12.98199987411499,
+     "max": 766.3100001811981
+    },
+    "ran_before_freeze_s": {
+     "p50": 3.3440000000000003
+    },
+    "frozen_s": {
+     "p50": 742.7405
+    },
+    "resumed_before_first_request_s": {
+     "p50": 0.1345,
+     "max": 0.174,
+     "n_on_demand": 10
+    },
+    "cold_p50_ms": 551.5,
+    "quiet_window_s": 180
+   },
+   "v1_vpc": {
+    "platform": "V1",
+    "sessions": 10,
+    "started": {
+     "pre-started instance": 10
+    },
+    "distinct_startup_tokens": 10,
+    "logs_collected": true,
+    "snapshot_build_boots": 0,
+    "snapshot_build_test_restores": 0,
+    "boots_before_first_session": 10,
+    "restores_before_first_session": 0,
+    "process_age_at_first_request_s": {
+     "p50": 516.5125000476837,
+     "min": 23.270999908447266,
+     "max": 534.2539999485016
+    },
+    "ran_before_freeze_s": {
+     "p50": 3.25
+    },
+    "frozen_s": {
+     "p50": 513.072
+    },
+    "resumed_before_first_request_s": {
+     "p50": 0.14200000000000002,
+     "max": 0.179,
+     "n_on_demand": 10
+    },
+    "cold_p50_ms": 629.3499999999999,
+    "quiet_window_s": 180
+   },
+   "v2_public": {
+    "platform": "V2",
+    "sessions": 10,
+    "started": {
+     "snapshot restore": 10
+    },
+    "distinct_startup_tokens": 2,
+    "logs_collected": true,
+    "snapshot_build_boots": 2,
+    "snapshot_build_test_restores": 2,
+    "boots_before_first_session": 0,
+    "restores_before_first_session": 0,
+    "process_age_at_first_request_s": {
+     "p50": 712.5960001945496,
+     "min": 662.345999956131,
+     "max": 748.7960000038147
+    },
+    "ran_before_freeze_s": {
+     "p50": 69.8655
+    },
+    "frozen_s": {
+     "p50": 642.7384999999999
+    },
+    "resumed_before_first_request_s": {
+     "p50": 0.017,
+     "max": 0.07,
+     "n_on_demand": 10
+    },
+    "cold_p50_ms": 2065.55,
+    "quiet_window_s": 180
+   },
+   "v2_vpc": {
+    "platform": "V2",
+    "sessions": 10,
+    "started": {
+     "snapshot restore": 10
+    },
+    "distinct_startup_tokens": 2,
+    "logs_collected": true,
+    "snapshot_build_boots": 2,
+    "snapshot_build_test_restores": 2,
+    "boots_before_first_session": 0,
+    "restores_before_first_session": 0,
+    "process_age_at_first_request_s": {
+     "p50": 354.6125000715256,
+     "min": 299.2660000324249,
+     "max": 383.39400005340576
+    },
+    "ran_before_freeze_s": {
+     "p50": 68.84
+    },
+    "frozen_s": {
+     "p50": 285.2115
+    },
+    "resumed_before_first_request_s": {
+     "p50": 0.0375,
+     "max": 0.088,
+     "n_on_demand": 10
+    },
+    "cold_p50_ms": 1785.4499999999998,
+    "quiet_window_s": 180
+   }
+  },
+  "answer": "**Every new session restores on demand; no pre-started or pre-restored V2 instances were seen.** 20/20 new V2 sessions restored the version's snapshot (sessions shared 2 snapshot copies per runtime), each restored at most 0.09 s before its first request arrived (20/20 \u22642 s), and before the first session nothing was booted or restored outside the snapshot build. V1, for comparison, does keep a warm pool: 20/20 V1 sessions landed on their own instance that had been booted ahead of time (median 10.5 min before the session, newest 13 s), ran ~3.3 s, was frozen, and was resumed ~0.14 s before the first request; 10 and 10 V1 instances had booted before the first session was even sent. At this low, sequential load that pool made V1's cold invoke (p50 590 ms) faster than V2's (p50 1.93 s)."
+ },
+ "q3_rollback": {
+  "rollback": {
+   "action": "q3.rollback_to_v1",
+   "version": "4",
+   "platform": "V1",
+   "outcome": "READY",
+   "seconds": 5.9,
+   "failure": null,
+   "boots": 0,
+   "boot_tokens": [],
+   "validation_restores": 0,
+   "builder_sessions": [],
+   "pull_sessions": [
+    "BedrockAgentCore"
+   ],
+   "pulled": {
+    "tag ci": 13,
+    "digest B-r1027191511": 12
+   },
+   "logs_collected": true,
+   "trail_collected": true
+  },
+  "rollforward": {
+   "action": "q3.rollforward_to_v2",
+   "version": "5",
+   "platform": "V2",
+   "outcome": "READY",
+   "seconds": 185.6,
+   "failure": null,
+   "boots": 2,
+   "boot_tokens": [
+    "5bafe5152bca485eb9ed254962be6588",
+    "9897438a0e9641fcbede015107e88747"
+   ],
+   "validation_restores": 2,
+   "builder_sessions": [
+    "snapstart-build-DEFAULT"
+   ],
+   "pull_sessions": [
+    "BedrockAgentCore",
+    "snapstart"
+   ],
+   "pulled": {
+    "tag ci": 3,
+    "digest B-r1027191511": 2
+   },
+   "logs_collected": true,
+   "trail_collected": true
+  },
+  "platform_reported": {
+   "before_rollback": "V2",
+   "after_rollback": "V1",
+   "after_rollforward": "V2"
+  },
+  "steps": [
+   {
+    "step": "Before: DEFAULT on V2",
+    "sessions": 1,
+    "started": {
+     "snapshot restore": 1
+    },
+    "markers": [
+     "m3"
+    ],
+    "distinct_startup_tokens": 1,
+    "cold_ms_p50": 2368.2,
+    "frozen_s_p50": 461.122
+   },
+   {
+    "step": "After V2\u2192V1: new sessions on DEFAULT",
+    "sessions": 2,
+    "started": {
+     "fresh boot": 2
+    },
+    "markers": [
+     "m3"
+    ],
+    "distinct_startup_tokens": 2,
+    "cold_ms_p50": 3412.2,
+    "frozen_s_p50": 0.0
+   },
+   {
+    "step": "After V2\u2192V1: LIVE (pinned to an older V2 version)",
+    "sessions": 2,
+    "started": {
+     "snapshot restore": 2
+    },
+    "markers": [
+     "m2"
+    ],
+    "distinct_startup_tokens": 2,
+    "cold_ms_p50": 2015.8000000000002,
+    "frozen_s_p50": 52.1755
+   },
+   {
+    "step": "After V1\u2192V2: new sessions on DEFAULT",
+    "sessions": 2,
+    "started": {
+     "snapshot restore": 2
+    },
+    "markers": [
+     "m3"
+    ],
+    "distinct_startup_tokens": 2,
+    "cold_ms_p50": 1867.4499999999998,
+    "frozen_s_p50": 27.639499999999998
+   }
+  ],
+  "inflight_session_kept_instance": true,
+  "inflight_calls": 2,
+  "versions": [
+   {
+    "version": "1",
+    "status": "READY",
+    "platform": "V2",
+    "marker": "m1",
+    "image": "123456789012.dkr.ecr.us-west-2.amazonaws.com/agentcore-v2-poc-r1027191511:ci"
+   },
+   {
+    "version": "2",
+    "status": "READY",
+    "platform": "V2",
+    "marker": "m2",
+    "image": "123456789012.dkr.ecr.us-west-2.amazonaws.com/agentcore-v2-poc-r1027191511:ci"
+   },
+   {
+    "version": "3",
+    "status": "READY",
+    "platform": "V2",
+    "marker": "m3",
+    "image": "123456789012.dkr.ecr.us-west-2.amazonaws.com/agentcore-v2-poc-r1027191511:ci"
+   },
+   {
+    "version": "4",
+    "status": "READY",
+    "platform": "V1",
+    "marker": "m3",
+    "image": "123456789012.dkr.ecr.us-west-2.amazonaws.com/agentcore-v2-poc-r1027191511:ci"
+   },
+   {
+    "version": "5",
+    "status": "READY",
+    "platform": "V2",
+    "marker": "m3",
+    "image": "123456789012.dkr.ecr.us-west-2.amazonaws.com/agentcore-v2-poc-r1027191511:ci"
+   }
+  ],
+  "answer": "**Not fixed at create.** UpdateAgentRuntime(platformVersion=V1) on the V2 runtime created version 4 and reached READY in 6 s; GetAgentRuntime then reported V1; new sessions behaved as V1 (each on its own instance: 2 distinct startup tokens in 2 sessions); switching back to V2 worked too (READY in 3.1 min; 2/2 sessions restored a snapshot); a session opened before the switch kept its instance and answered through both switches; an endpoint pinned to the older V2 version kept serving snapshot restores (2/2)."
+ },
+ "q4_same_tag": {
+  "tag": "ci",
+  "build_a": "A-r1027191511",
+  "build_b": "B-r1027191511",
+  "runtimes": {
+   "v1_public": {
+    "before": [
+     "A-r1027191511"
+    ],
+    "tag_moved_no_update": [
+     "A-r1027191511"
+    ],
+    "same_tag_update": {
+     "action": "q4.same_tag_update",
+     "version": "2",
+     "platform": "V1",
+     "outcome": "READY",
+     "seconds": 5.8,
+     "failure": null,
+     "boots": 0,
+     "boot_tokens": [],
+     "validation_restores": 0,
+     "builder_sessions": [],
+     "pull_sessions": [
+      "BedrockAgentCore"
+     ],
+     "pulled": {
+      "digest B-r1027191511": 14,
+      "tag ci": 15
+     },
+     "logs_collected": true,
+     "trail_collected": true
+    },
+    "after_update": [
+     "B-r1027191511"
+    ],
+    "after_update_restored_new_snapshot": false,
+    "noop_update": {
+     "action": "q4.noop_update",
+     "version": "3",
+     "platform": "V1",
+     "outcome": "READY",
+     "seconds": 5.9,
+     "failure": null,
+     "boots": 0,
+     "boot_tokens": [],
+     "validation_restores": 0,
+     "builder_sessions": [],
+     "pull_sessions": [
+      "BedrockAgentCore"
+     ],
+     "pulled": {
+      "tag ci": 13,
+      "digest B-r1027191511": 12
+     },
+     "logs_collected": true,
+     "trail_collected": true
+    },
+    "after_noop": [
+     "B-r1027191511"
+    ],
+    "after_noop_restored_new_snapshot": false,
+    "after_update_started": {
+     "fresh boot": 2
+    },
+    "after_noop_started": {
+     "fresh boot": 2
+    }
+   },
+   "v1_vpc": {
+    "before": [
+     "A-r1027191511"
+    ],
+    "tag_moved_no_update": [
+     "A-r1027191511"
+    ],
+    "same_tag_update": {
+     "action": "q4.same_tag_update",
+     "version": "2",
+     "platform": "V1",
+     "outcome": "READY",
+     "seconds": 16.3,
+     "failure": null,
+     "boots": 0,
+     "boot_tokens": [],
+     "validation_restores": 0,
+     "builder_sessions": [],
+     "pull_sessions": [
+      "BedrockAgentCore"
+     ],
+     "pulled": {
+      "digest B-r1027191511": 14,
+      "tag ci": 15
+     },
+     "logs_collected": true,
+     "trail_collected": true
+    },
+    "after_update": [
+     "B-r1027191511"
+    ],
+    "after_update_restored_new_snapshot": false,
+    "noop_update": {
+     "action": "q4.noop_update",
+     "version": "3",
+     "platform": "V1",
+     "outcome": "READY",
+     "seconds": 16.1,
+     "failure": null,
+     "boots": 0,
+     "boot_tokens": [],
+     "validation_restores": 0,
+     "builder_sessions": [],
+     "pull_sessions": [
+      "BedrockAgentCore"
+     ],
+     "pulled": {
+      "tag ci": 13,
+      "digest B-r1027191511": 12
+     },
+     "logs_collected": true,
+     "trail_collected": true
+    },
+    "after_noop": [
+     "B-r1027191511"
+    ],
+    "after_noop_restored_new_snapshot": false,
+    "after_update_started": {
+     "fresh boot": 2
+    },
+    "after_noop_started": {
+     "fresh boot": 2
+    }
+   },
+   "v2_public": {
+    "before": [
+     "A-r1027191511"
+    ],
+    "tag_moved_no_update": [
+     "A-r1027191511"
+    ],
+    "same_tag_update": {
+     "action": "q4.same_tag_update",
+     "version": "2",
+     "platform": "V2",
+     "outcome": "READY",
+     "seconds": 185.4,
+     "failure": null,
+     "boots": 2,
+     "boot_tokens": [
+      "14a38c5d70bb46cc85de41ceb27c05f7",
+      "f026f0d2fe764a1e9b97bd4475be1cda"
+     ],
+     "validation_restores": 2,
+     "builder_sessions": [
+      "snapstart-build-DEFAULT"
+     ],
+     "pull_sessions": [
+      "BedrockAgentCore",
+      "snapstart"
+     ],
+     "pulled": {
+      "tag ci": 3,
+      "digest B-r1027191511": 2
+     },
+     "logs_collected": true,
+     "trail_collected": true
+    },
+    "after_update": [
+     "B-r1027191511"
+    ],
+    "after_update_restored_new_snapshot": true,
+    "noop_update": {
+     "action": "q4.noop_update",
+     "version": "3",
+     "platform": "V2",
+     "outcome": "READY",
+     "seconds": 185.9,
+     "failure": null,
+     "boots": 2,
+     "boot_tokens": [
+      "6e5083b87a4b45879b5e94f5f6b66152",
+      "93e5967b25a5430abcca9c226820f66e"
+     ],
+     "validation_restores": 2,
+     "builder_sessions": [
+      "snapstart-build-DEFAULT"
+     ],
+     "pull_sessions": [
+      "BedrockAgentCore",
+      "snapstart"
+     ],
+     "pulled": {
+      "tag ci": 3,
+      "digest B-r1027191511": 2
+     },
+     "logs_collected": true,
+     "trail_collected": true
+    },
+    "after_noop": [
+     "B-r1027191511"
+    ],
+    "after_noop_restored_new_snapshot": true,
+    "after_update_started": {
+     "snapshot restore": 2
+    },
+    "after_noop_started": {
+     "snapshot restore": 2
+    }
+   },
+   "v2_vpc": {
+    "before": [
+     "A-r1027191511"
+    ],
+    "tag_moved_no_update": [
+     "A-r1027191511"
+    ],
+    "same_tag_update": {
+     "action": "q4.same_tag_update",
+     "version": "2",
+     "platform": "V2",
+     "outcome": "READY",
+     "seconds": 201.0,
+     "failure": null,
+     "boots": 2,
+     "boot_tokens": [
+      "2d36bf394af64748b75b1092a7644145",
+      "f0542f6fe9a9452d8a57d7146a9b2411"
+     ],
+     "validation_restores": 2,
+     "builder_sessions": [
+      "snapstart-build-DEFAULT"
+     ],
+     "pull_sessions": [
+      "BedrockAgentCore",
+      "snapstart"
+     ],
+     "pulled": {
+      "tag ci": 3,
+      "digest B-r1027191511": 2
+     },
+     "logs_collected": true,
+     "trail_collected": true
+    },
+    "after_update": [
+     "B-r1027191511"
+    ],
+    "after_update_restored_new_snapshot": true,
+    "noop_update": {
+     "action": "q4.noop_update",
+     "version": "3",
+     "platform": "V2",
+     "outcome": "READY",
+     "seconds": 201.0,
+     "failure": null,
+     "boots": 2,
+     "boot_tokens": [
+      "5221f69e58b840dd908855b781058bff",
+      "d16f77b403e14106858f1999acc47264"
+     ],
+     "validation_restores": 2,
+     "builder_sessions": [
+      "snapstart-build-DEFAULT"
+     ],
+     "pull_sessions": [
+      "BedrockAgentCore",
+      "snapstart"
+     ],
+     "pulled": {
+      "tag ci": 3,
+      "digest B-r1027191511": 2
+     },
+     "logs_collected": true,
+     "trail_collected": true
+    },
+    "after_noop": [
+     "B-r1027191511"
+    ],
+    "after_noop_restored_new_snapshot": true,
+    "after_update_started": {
+     "snapshot restore": 2
+    },
+    "after_noop_started": {
+     "snapshot restore": 2
+    }
+   }
+  },
+  "answer": "**Yes: an update naming the same tag re-pulls it and rebuilds the snapshot.** V1 \u00b7 PUBLIC: tag moved, no update: new sessions ran build A-r1027191511; the same-tag update (v2, READY in 6 s) \u2192 new sessions ran build B-r1027191511; an update with nothing changed still created v3 (READY in 6 s). V1 \u00b7 VPC: tag moved, no update: new sessions ran build A-r1027191511; the same-tag update (v2, READY in 16 s) \u2192 new sessions ran build B-r1027191511; an update with nothing changed still created v3 (READY in 16 s). V2 \u00b7 PUBLIC: with the tag moved but no update, new sessions still restored build A-r1027191511; the same-tag update (v2, READY in 3.1 min) resolved the tag again (ECR pulls: tag ci \u00d73, digest B-r1027191511 \u00d72); new sessions ran build B-r1027191511 from a newly built snapshot; an update with nothing changed still created v3 (READY in 3.1 min) and rebuilt the snapshot. V2 \u00b7 VPC: with the tag moved but no update, new sessions still restored build A-r1027191511; the same-tag update (v2, READY in 3.4 min) resolved the tag again (ECR pulls: tag ci \u00d73, digest B-r1027191511 \u00d72); new sessions ran build B-r1027191511 from a newly built snapshot; an update with nothing changed still created v3 (READY in 3.4 min) and rebuilt the snapshot. (Build A `A-r1027191511`, build B `B-r1027191511`.)"
+ },
+ "q5_endpoints": {
+  "versions": {
+   "t": 1793130498.529288,
+   "kind": "q5_versions",
+   "v1": "1",
+   "v2": "2",
+   "v3": "3"
+  },
+  "ops": [
+   {
+    "action": "create",
+    "version": "1",
+    "platform": "V2",
+    "outcome": "READY",
+    "seconds": 198.0,
+    "failure": null,
+    "boots": 2,
+    "boot_tokens": [
+     "730893a06368491e89424166ae0d86d2",
+     "d8119717b428465297fe46fccb12d52b"
+    ],
+    "validation_restores": 2,
+    "builder_sessions": [
+     "snapstart-build-DEFAULT"
+    ],
+    "pull_sessions": [
+     "BedrockAgentCore",
+     "snapstart"
+    ],
+    "pulled": {
+     "tag ci": 3,
+     "digest A-r1027191511": 2
+    },
+    "logs_collected": true,
+    "trail_collected": true,
+    "endpoint": null
+   },
+   {
+    "action": "endpoint_create:LIVE",
+    "version": "1",
+    "platform": null,
+    "outcome": "READY",
+    "seconds": 184.7,
+    "failure": null,
+    "boots": 2,
+    "boot_tokens": [
+     "0095c5db1b3d4836829002ab29aff9b6",
+     "552c0a57a68742518d28fa6094399fa7"
+    ],
+    "validation_restores": 2,
+    "builder_sessions": [
+     "snapstart-build-LIVE"
+    ],
+    "pull_sessions": [
+     "snapstart"
+    ],
+    "pulled": {
+     "digest A-r1027191511": 2,
+     "tag ci": 2
+    },
+    "logs_collected": true,
+    "trail_collected": true,
+    "endpoint": "LIVE"
+   },
+   {
+    "action": "endpoint_create:test",
+    "version": "1",
+    "platform": null,
+    "outcome": "READY",
+    "seconds": 184.9,
+    "failure": null,
+    "boots": 2,
+    "boot_tokens": [
+     "210bf47a5d45462491a942a14d813756",
+     "40c27ba9a7dd49f7a557a0c4424e7df3"
+    ],
+    "validation_restores": 2,
+    "builder_sessions": [
+     "snapstart-build-test"
+    ],
+    "pull_sessions": [
+     "snapstart"
+    ],
+    "pulled": {
+     "tag ci": 2,
+     "digest B-r1027191511": 2
+    },
+    "logs_collected": true,
+    "trail_collected": true,
+    "endpoint": "test"
+   },
+   {
+    "action": "q5.update_m2",
+    "version": "2",
+    "platform": "V2",
+    "outcome": "READY",
+    "seconds": 185.7,
+    "failure": null,
+    "boots": 2,
+    "boot_tokens": [
+     "3c2b217dae7d463089b9f090602059ad",
+     "b5158cfed4db4016bd18dda3cbf4156a"
+    ],
+    "validation_restores": 2,
+    "builder_sessions": [
+     "snapstart-build-DEFAULT"
+    ],
+    "pull_sessions": [
+     "BedrockAgentCore",
+     "snapstart"
+    ],
+    "pulled": {
+     "tag ci": 3,
+     "digest B-r1027191511": 2
+    },
+    "logs_collected": true,
+    "trail_collected": true,
+    "endpoint": null
+   },
+   {
+    "action": "endpoint_update:test",
+    "version": "2",
+    "platform": null,
+    "outcome": "READY",
+    "seconds": 185.0,
+    "failure": null,
+    "boots": 2,
+    "boot_tokens": [
+     "7d9fa2aaf357404ca70744a1b65a07ce",
+     "bb807b59926f4ccbbf0d2a93c075c7a3"
+    ],
+    "validation_restores": 2,
+    "builder_sessions": [
+     "snapstart-build-test"
+    ],
+    "pull_sessions": [
+     "snapstart"
+    ],
+    "pulled": {
+     "tag ci": 2,
+     "digest B-r1027191511": 2
+    },
+    "logs_collected": true,
+    "trail_collected": true,
+    "endpoint": "test"
+   },
+   {
+    "action": "q5.update_m3",
+    "version": "3",
+    "platform": "V2",
+    "outcome": "READY",
+    "seconds": 185.8,
+    "failure": null,
+    "boots": 2,
+    "boot_tokens": [
+     "0cb9cc928c5b4d2d8f96e5821348a997",
+     "b32c45993ee94aa196b37af5e7a4edcc"
+    ],
+    "validation_restores": 2,
+    "builder_sessions": [
+     "snapstart-build-DEFAULT"
+    ],
+    "pull_sessions": [
+     "BedrockAgentCore",
+     "snapstart"
+    ],
+    "pulled": {
+     "tag ci": 3,
+     "digest B-r1027191511": 2
+    },
+    "logs_collected": true,
+    "trail_collected": true,
+    "endpoint": null
+   },
+   {
+    "action": "endpoint_update:test",
+    "version": "3",
+    "platform": null,
+    "outcome": "READY",
+    "seconds": 184.8,
+    "failure": null,
+    "boots": 2,
+    "boot_tokens": [
+     "8a6d46508a554b6c971db962392cdb6f",
+     "f4a35a798ff24d38a6e7da62e1355c73"
+    ],
+    "validation_restores": 2,
+    "builder_sessions": [
+     "snapstart-build-test"
+    ],
+    "pull_sessions": [
+     "snapstart"
+    ],
+    "pulled": {
+     "tag ci": 2,
+     "digest B-r1027191511": 2
+    },
+    "logs_collected": true,
+    "trail_collected": true,
+    "endpoint": "test"
+   },
+   {
+    "action": "endpoint_update:LIVE",
+    "version": "2",
+    "platform": null,
+    "outcome": "READY",
+    "seconds": 184.8,
+    "failure": null,
+    "boots": 2,
+    "boot_tokens": [
+     "ad0063297aa54f3082bf471809a3cea8",
+     "f5f987dbd52c45ba8196f6a47886cbce"
+    ],
+    "validation_restores": 2,
+    "builder_sessions": [
+     "snapstart-build-LIVE"
+    ],
+    "pull_sessions": [
+     "snapstart"
+    ],
+    "pulled": {
+     "digest B-r1027191511": 2,
+     "tag ci": 2
+    },
+    "logs_collected": true,
+    "trail_collected": true,
+    "endpoint": "LIVE"
+   }
+  ],
+  "steps": {
+   "q5.all_on_v1": {
+    "label": "DEFAULT, LIVE, test \u2192 v1",
+    "endpoints": {
+     "DEFAULT": {
+      "sessions": 2,
+      "markers": [
+       "m1"
+      ],
+      "builds": [
+       "A-r1027191511"
+      ],
+      "snapshots": [
+       "d8119717"
+      ],
+      "built_by": [
+       "create"
+      ],
+      "started": {
+       "snapshot restore": 2
+      }
+     },
+     "LIVE": {
+      "sessions": 2,
+      "markers": [
+       "m1"
+      ],
+      "builds": [
+       "A-r1027191511"
+      ],
+      "snapshots": [
+       "0095c5db"
+      ],
+      "built_by": [
+       "endpoint_create:LIVE"
+      ],
+      "started": {
+       "snapshot restore": 2
+      }
+     },
+     "test": {
+      "sessions": 2,
+      "markers": [
+       "m1"
+      ],
+      "builds": [
+       "B-r1027191511"
+      ],
+      "snapshots": [
+       "40c27ba9"
+      ],
+      "built_by": [
+       "endpoint_create:test"
+      ],
+      "started": {
+       "snapshot restore": 2
+      }
+     }
+    }
+   },
+   "q5.split": {
+    "label": "DEFAULT, test \u2192 v2; LIVE \u2192 v1",
+    "endpoints": {
+     "DEFAULT": {
+      "sessions": 2,
+      "markers": [
+       "m2"
+      ],
+      "builds": [
+       "B-r1027191511"
+      ],
+      "snapshots": [
+       "3c2b217d",
+       "b5158cfe"
+      ],
+      "built_by": [
+       "q5.update_m2"
+      ],
+      "started": {
+       "snapshot restore": 2
+      }
+     },
+     "LIVE": {
+      "sessions": 2,
+      "markers": [
+       "m1"
+      ],
+      "builds": [
+       "A-r1027191511"
+      ],
+      "snapshots": [
+       "552c0a57"
+      ],
+      "built_by": [
+       "endpoint_create:LIVE"
+      ],
+      "started": {
+       "snapshot restore": 2
+      }
+     },
+     "test": {
+      "sessions": 2,
+      "markers": [
+       "m2"
+      ],
+      "builds": [
+       "B-r1027191511"
+      ],
+      "snapshots": [
+       "7d9fa2aa"
+      ],
+      "built_by": [
+       "endpoint_update:test"
+      ],
+      "started": {
+       "snapshot restore": 2
+      }
+     }
+    }
+   },
+   "q5.repoint_unreferenced": {
+    "label": "LIVE \u2192 v2 again, after no endpoint pointed at it",
+    "endpoints": {
+     "LIVE": {
+      "sessions": 2,
+      "markers": [
+       "m2"
+      ],
+      "builds": [
+       "B-r1027191511"
+      ],
+      "snapshots": [
+       "ad006329",
+       "f5f987db"
+      ],
+      "built_by": [
+       "endpoint_update:LIVE"
+      ],
+      "started": {
+       "snapshot restore": 2
+      }
+     }
+    }
+   }
+  },
+  "same_version_different_image": [
+   "test on the version with marker m1 ran B-r1027191511 (first seen with A-r1027191511)"
+  ],
+  "snapshot_scope": "endpoint+version",
+  "answer": "**The snapshot is per endpoint and version, not just per version.** Each endpoint restores the version it points to, but an endpoint gets its own snapshot build (minutes) even when another endpoint already has that version: with DEFAULT, LIVE and test all on v1, DEFAULT restored snapshot d8119717 (built by create); LIVE restored snapshot 0095c5db (built by endpoint_create:LIVE); test restored snapshot 40c27ba9 (built by endpoint_create:test); after the runtime moved to v2, every endpoint restored the version it pointed at: DEFAULT \u2192 marker m2; LIVE \u2192 marker m1; test \u2192 marker m2; 5 of 5 endpoint creates/updates built a snapshot of their own (3.1 min, 3.1 min, 3.1 min, 3.1 min, 3.1 min); re-pointing LIVE at v2 once nothing referenced it restored a snapshot built by endpoint_update:LIVE; **the same runtime version ran different images on different endpoints**: test on the version with marker m1 ran B-r1027191511 (first seen with A-r1027191511). The version stores the image tag, and every snapshot build (a new endpoint, an endpoint update) resolves that tag again, so with a mutable tag re-pointing an endpoint at an old version does not bring back the old image."
+ },
+ "q6_pricing": {
+  "snapshot_builds": [
+   {
+    "rt": "v2_endpoints",
+    "action": "create",
+    "start": 1793128605.952822,
+    "end": 1793128803.980373,
+    "minutes": 3.3,
+    "sessions_nearby": false,
+    "boots": 2,
+    "usage_delivered": true
+   },
+   {
+    "rt": "v2_endpoints",
+    "action": "endpoint_create:LIVE",
+    "start": 1793129359.71592,
+    "end": 1793129544.464355,
+    "minutes": 3.1,
+    "sessions_nearby": false,
+    "boots": 2,
+    "usage_delivered": true
+   },
+   {
+    "rt": "v2_endpoints",
+    "action": "endpoint_create:test",
+    "start": 1793129544.4645782,
+    "end": 1793129729.3596318,
+    "minutes": 3.1,
+    "sessions_nearby": false,
+    "boots": 2,
+    "usage_delivered": true
+   },
+   {
+    "rt": "v2_endpoints",
+    "action": "q5.update_m2",
+    "start": 1793129742.0647738,
+    "end": 1793129927.759756,
+    "minutes": 3.1,
+    "sessions_nearby": true,
+    "boots": 2,
+    "usage_delivered": true
+   },
+   {
+    "rt": "v2_endpoints",
+    "action": "endpoint_update:test",
+    "start": 1793129927.89016,
+    "end": 1793130112.9025788,
+    "minutes": 3.1,
+    "sessions_nearby": true,
+    "boots": 2,
+    "usage_delivered": true
+   },
+   {
+    "rt": "v2_endpoints",
+    "action": "q5.update_m3",
+    "start": 1793130127.815663,
+    "end": 1793130313.5793412,
+    "minutes": 3.1,
+    "sessions_nearby": true,
+    "boots": 2,
+    "usage_delivered": false
+   },
+   {
+    "rt": "v2_endpoints",
+    "action": "endpoint_update:test",
+    "start": 1793130313.6967292,
+    "end": 1793130498.5290492,
+    "minutes": 3.1,
+    "sessions_nearby": true,
+    "boots": 2,
+    "usage_delivered": false
+   },
+   {
+    "rt": "v2_endpoints",
+    "action": "endpoint_update:LIVE",
+    "start": 1793130558.537083,
+    "end": 1793130743.33356,
+    "minutes": 3.1,
+    "sessions_nearby": true,
+    "boots": 2,
+    "usage_delivered": false
+   },
+   {
+    "rt": "v2_endpoints",
+    "action": "q3.rollforward_to_v2",
+    "start": 1793130768.1699069,
+    "end": 1793130953.812042,
+    "minutes": 3.1,
+    "sessions_nearby": true,
+    "boots": 2,
+    "usage_delivered": false
+   },
+   {
+    "rt": "v2_vpc",
+    "action": "create",
+    "start": 1793128605.939204,
+    "end": 1793129168.1797361,
+    "minutes": 9.4,
+    "sessions_nearby": false,
+    "boots": 2,
+    "usage_delivered": true
+   },
+   {
+    "rt": "v2_vpc",
+    "action": "q4.same_tag_update",
+    "start": 1793129458.196548,
+    "end": 1793129659.173255,
+    "minutes": 3.3,
+    "sessions_nearby": true,
+    "boots": 2,
+    "usage_delivered": true
+   },
+   {
+    "rt": "v2_vpc",
+    "action": "q4.noop_update",
+    "start": 1793129663.530088,
+    "end": 1793129864.559326,
+    "minutes": 3.4,
+    "sessions_nearby": true,
+    "boots": 2,
+    "usage_delivered": true
+   },
+   {
+    "rt": "v2_public",
+    "action": "create",
+    "start": 1793128605.972041,
+    "end": 1793128803.3772001,
+    "minutes": 3.3,
+    "sessions_nearby": false,
+    "boots": 2,
+    "usage_delivered": true
+   },
+   {
+    "rt": "v2_public",
+    "action": "q4.same_tag_update",
+    "start": 1793129457.567411,
+    "end": 1793129642.972391,
+    "minutes": 3.1,
+    "sessions_nearby": true,
+    "boots": 2,
+    "usage_delivered": true
+   },
+   {
+    "rt": "v2_public",
+    "action": "q4.noop_update",
+    "start": 1793129647.6338172,
+    "end": 1793129833.531662,
+    "minutes": 3.1,
+    "sessions_nearby": true,
+    "boots": 2,
+    "usage_delivered": true
+   }
+  ],
+  "quiet_build_minutes": 22.2,
+  "usage_records": 179,
+  "usage": {
+   "v2_endpoints": {
+    "records": 179,
+    "sessions": 12,
+    "vcpu_h": 0.010291,
+    "gb_h": 0.062906,
+    "no_session": 0,
+    "not_our_session": 0,
+    "in_builds": 0,
+    "est_usd": 0.002376
+   }
+  },
+  "per_session": {
+   "sessions": 12,
+   "metered_seconds_p50": 14.245000000000001,
+   "gb_h_p50": 0.0052064088093790005,
+   "vcpu_h_p50": 0.000851047222221,
+   "peak_gb_p50": 1.4878748960441999,
+   "peak_gb_max": 2.15359798851,
+   "usd_p50": 0.00019764350057683257
+  },
+  "per_platform": {
+   "V2": {
+    "sessions": 12,
+    "metered_seconds_p50": 14.245000000000001,
+    "first_second_gb_p50": 1.4878748960441999,
+    "first_second_vcpu_p50": 2.003085,
+    "steady_gb_p50": 1.3345125957144002,
+    "metered_after_last_reply_s_p50": 12.786664485931396,
+    "pre_session_seconds_p50": 0.0,
+    "pre_session_lead_s_p50": 0.0,
+    "in_session_seconds_p50": 14.245000000000001,
+    "gb_h_p50": 0.0052064088093790005,
+    "vcpu_h_p50": 0.000851047222221,
+    "usd_p50": 0.00019764350057683257
+   }
+  },
+  "last_usage_record": 1793130140.187,
+  "metric_series_found": true,
+  "metric_usage_during_builds": [],
+  "costs": null,
+  "prices": {
+   "V1": {
+    "vcpu_h": 0.0895,
+    "gb_h": 0.00945
+   },
+   "V2": {
+    "vcpu_h": 0.1276,
+    "gb_h": 0.0169
+   }
+  },
+  "pricing_url": "https://aws.amazon.com/bedrock/agentcore/pricing/",
+  "answer": "**Snapshot creation and storage: nothing was metered. Restore: metered, as part of the session.** All 179 per-second usage records AgentCore delivered (V2 \u00b7 PUBLIC (endpoints/rollback)) belong to sessions this PoC opened (0 for any other session, 0 with no session), although 5 V2 snapshot builds (15.7 min of building) ran on those runtimes within the delivered period. Each new V2 session's first metered second (the restore) showed 1.49 GB and 2.00 vCPU, then ~1.33 GB while idle (reclaim starts after 120 s idle); a one-call session metered 14 s, 13 s of it after the last reply (StopRuntimeSession was called immediately), \u2248 $0.000198 per session. CloudWatch MemoryUsed/CPUUsed showed 0 non-zero minutes inside those builds. Cost Explorer not checked yet (run `poc.py pricing` a day later). The pricing page has no snapshot line item, and V2 bills at its own rates ($0.1276/vCPU-h, $0.0169/GB-h vs V1 $0.0895, $0.00945). This is evidence of what was metered, not a pricing commitment."
+ },
+ "extras": {
+  "env_limit": [
+   {
+    "t": 1793129168.9991732,
+    "kind": "extra_env_limit",
+    "rejected": false,
+    "runtime_id": "v2poc_r1027191511_envlimit-HZJwPjE81O"
+   }
+  ],
+  "unsigned_invoke": {
+   "t": 1793129179.704695,
+   "kind": "extra_anonymous_invoke",
+   "rt": "v1_public",
+   "status": 403,
+   "error_type": "AccessDeniedException",
+   "body": "{\"message\":\"Missing Authentication Token\"}"
+  },
+  "shared_startup_state": {
+   "sessions": 20,
+   "distinct_import_time_uuids": {
+    "V2 \u00b7 PUBLIC": 2,
+    "V2 \u00b7 VPC": 2
+   },
+   "hostnames": [
+    "localhost"
+   ],
+   "pids": [
+    "1"
+   ],
+   "distinct_boot_ids": 2
+  },
+  "startup_code_runs_per_v2_build": {
+   "v2_endpoints": 2,
+   "v2_vpc": 2,
+   "v2_public": 2
+  },
+  "ready_times": [
+   {
+    "rt": "v2_endpoints",
+    "action": "create",
+    "platform": "V2",
+    "outcome": "READY",
+    "seconds": 198.0
+   },
+   {
+    "rt": "v2_endpoints",
+    "action": "q5.update_m2",
+    "platform": "V2",
+    "outcome": "READY",
+    "seconds": 185.7
+   },
+   {
+    "rt": "v2_endpoints",
+    "action": "q5.update_m3",
+    "platform": "V2",
+    "outcome": "READY",
+    "seconds": 185.8
+   },
+   {
+    "rt": "v2_endpoints",
+    "action": "q3.rollback_to_v1",
+    "platform": "V1",
+    "outcome": "READY",
+    "seconds": 5.9
+   },
+   {
+    "rt": "v2_endpoints",
+    "action": "q3.rollforward_to_v2",
+    "platform": "V2",
+    "outcome": "READY",
+    "seconds": 185.6
+   },
+   {
+    "rt": "v2_vpc",
+    "action": "create",
+    "platform": "V2",
+    "outcome": "READY",
+    "seconds": 562.2
+   },
+   {
+    "rt": "v2_vpc",
+    "action": "q4.same_tag_update",
+    "platform": "V2",
+    "outcome": "READY",
+    "seconds": 201.0
+   },
+   {
+    "rt": "v2_vpc",
+    "action": "q4.noop_update",
+    "platform": "V2",
+    "outcome": "READY",
+    "seconds": 201.0
+   },
+   {
+    "rt": "v2_public",
+    "action": "create",
+    "platform": "V2",
+    "outcome": "READY",
+    "seconds": 197.4
+   },
+   {
+    "rt": "v2_public",
+    "action": "q4.same_tag_update",
+    "platform": "V2",
+    "outcome": "READY",
+    "seconds": 185.4
+   },
+   {
+    "rt": "v2_public",
+    "action": "q4.noop_update",
+    "platform": "V2",
+    "outcome": "READY",
+    "seconds": 185.9
+   },
+   {
+    "rt": "v1_vpc",
+    "action": "create",
+    "platform": "V1",
+    "outcome": "READY",
+    "seconds": 269.3
+   },
+   {
+    "rt": "v1_vpc",
+    "action": "q4.same_tag_update",
+    "platform": "V1",
+    "outcome": "READY",
+    "seconds": 16.3
+   },
+   {
+    "rt": "v1_vpc",
+    "action": "q4.noop_update",
+    "platform": "V1",
+    "outcome": "READY",
+    "seconds": 16.1
+   },
+   {
+    "rt": "v1_public",
+    "action": "create",
+    "platform": "V1",
+    "outcome": "READY",
+    "seconds": 17.6
+   },
+   {
+    "rt": "v1_public",
+    "action": "q4.same_tag_update",
+    "platform": "V1",
+    "outcome": "READY",
+    "seconds": 5.8
+   },
+   {
+    "rt": "v1_public",
+    "action": "q4.noop_update",
+    "platform": "V1",
+    "outcome": "READY",
+    "seconds": 5.9
+   }
+  ],
+  "timeline": [
+   {
+    "rt": "v2_endpoints",
+    "image_pulls_s": [
+     11,
+     89,
+     89,
+     89,
+     89
+    ],
+    "boots_s": [
+     93,
+     93
+    ],
+    "first_ping_after_boot_s": [
+     1.7,
+     1.6
+    ],
+    "snapshot_taken_s": [
+     162,
+     162
+    ],
+    "validation_restores_s": [
+     172,
+     172
+    ],
+    "ready_s": 198,
+    "first_session_s": 1123
+   },
+   {
+    "rt": "v2_vpc",
+    "image_pulls_s": [
+     10,
+     453,
+     453,
+     453,
+     453
+    ],
+    "boots_s": [
+     456,
+     457
+    ],
+    "first_ping_after_boot_s": [
+     1.7,
+     1.6
+    ],
+    "snapshot_taken_s": [
+     526,
+     536
+    ],
+    "validation_restores_s": [
+     536,
+     546
+    ],
+    "ready_s": 562,
+    "first_session_s": 754
+   },
+   {
+    "rt": "v2_public",
+    "image_pulls_s": [
+     11,
+     90,
+     90,
+     90,
+     90
+    ],
+    "boots_s": [
+     93,
+     93
+    ],
+    "first_ping_after_boot_s": [
+     1.7,
+     1.6
+    ],
+    "snapshot_taken_s": [
+     163,
+     173
+    ],
+    "validation_restores_s": [
+     173,
+     183
+    ],
+    "ready_s": 197,
+    "first_session_s": 754
+   }
+  ]
+ },
+ "evidence": {
+  "window": [
+   "2026-10-27T19:11:44.934977+00:00",
+   "2026-10-27T20:13:51.764863+00:00"
+  ],
+  "collected_at": 1793131971.858946,
+  "logs.jsonl": {
+   "rows": 706,
+   "kept_saved": true
+  },
+  "cloudtrail.jsonl": {
+   "rows": 1260,
+   "kept_saved": true
+  },
+  "usage.jsonl": {
+   "error": "An error occurred (ResourceNotFoundException) when calling the FilterLogEvents operation: The specified log group does not exist."
+  },
+  "metrics.json": {
+   "rows": 6
+  }
+ }
+}

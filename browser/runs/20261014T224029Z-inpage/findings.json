@@ -1,0 +1,442 @@
+{
+ "run_id": "20261014T224029Z",
+ "strategy": "inpage",
+ "run_dir": "20261014T224029Z-inpage",
+ "session_id": "01M4Y96213YRZECEJ18CSBG2D6",
+ "region": "us-west-2",
+ "browser_id": "aws.browser.v1",
+ "params": {
+  "step_mb": 200,
+  "interval_s": 8.0,
+  "max_mb": 4600,
+  "alloc_kind": "arraybuffer",
+  "fill": "touch",
+  "sample_interval_s": 2.0,
+  "memdump_interval_s": 6.0,
+  "host_interval_s": 5.0
+ },
+ "env": {
+  "chrome_version": "148.0.7778.258",
+  "hardwareConcurrency": 1,
+  "deviceMemoryGb": null,
+  "jsHeapSizeLimitMb": 2222.0611572265625,
+  "connect_ms": 509
+ },
+ "host_caps": {
+  "meminfo_readable": true,
+  "block_devices": [
+   "loop0",
+   "loop1",
+   "loop2",
+   "loop3",
+   "loop4",
+   "loop5",
+   "loop6",
+   "loop7",
+   "vda",
+   "vdb"
+  ],
+  "zram_devices": [],
+  "blk_vda_size_gb": 1.66,
+  "blk_vda_readonly": true,
+  "blk_vdb_size_gb": 16.0,
+  "blk_vdb_readonly": false,
+  "zswap_enabled": "N",
+  "ksm_run": "0",
+  "thp_enabled": "always [madvise] never",
+  "kernel_swap_support": true,
+  "mem_total_mb": 3999.4
+ },
+ "valid": true,
+ "mode": "oom_kill",
+ "mode_text": "OOM kill: the tab's process was SIGKILLed while the VM was out of memory",
+ "oom_inferred": false,
+ "symptom": null,
+ "avail_at_failure_pct": 12.05930889633445,
+ "memory_exhausted": true,
+ "cache_evicted_pct": 77.124251654238,
+ "anon_share_pct": 83.28999349902485,
+ "free_floor_pct": 2.0203030454568185,
+ "probe_tail": {
+  "p50": 45.5,
+  "max": 48.5,
+  "n": 5
+ },
+ "browser_probe_tail": {
+  "p50": 45.5,
+  "max": 58.9,
+  "n": 5
+ },
+ "failing_step_ms": 21683.6,
+ "probe_ramp": {
+  "p50": 45.7,
+  "p95": 77.24499999999996,
+  "max": 113.7,
+  "n": 48
+ },
+ "browser_probe_ramp": {
+  "p50": 45.0,
+  "p95": 77.35,
+  "max": 88.7,
+  "n": 46
+ },
+ "slowdown_shape": "gradual then cliff",
+ "gradual_reasons": [
+  "allocation step 100 \u2192 193 ms (1.9\u00d7) while still succeeding"
+ ],
+ "cliff_reasons": [
+  "the final step ran 22 s before the renderer died, vs 0.1 s for early steps (218\u00d7)"
+ ],
+ "failure_event": "page_crash",
+ "failure_elapsed_s": 151.9,
+ "failure_utc": "2026-10-14T22:43:03.157Z",
+ "crash": {
+  "terminal": false,
+  "page": "alloc",
+  "status": "killed",
+  "error_code": 9,
+  "exit_status": "SIGKILL",
+  "target_id": "6F62FA04E63ABD621E5CDACD8C0E6B54"
+ },
+ "vanished_processes": [],
+ "alloc_at_failure_mb": 2600,
+ "in_flight_target_mb": 2800,
+ "max_allocated_ok_mb": 2600.0,
+ "readings_at_failure": {
+  "cdp_heap_mb": 2600.7,
+  "browser_pmf_mb": 3028.9,
+  "max_renderer_pmf_mb": 2630.5,
+  "host_mem_free_mb": 91.8,
+  "host_mem_avail_est_mb": 482.3,
+  "host_mem_inuse_excl_cache_mb": 3517.1,
+  "host_anon_mb": 3331.1,
+  "host_file_mb": 435.6,
+  "cloudwatch_mem_mb": null,
+  "usage_log_mem_mb": null
+ },
+ "failure_snapshot": {
+  "probe_latency_ms": {
+   "value": 44.6,
+   "age_s": 22.8
+  },
+  "cdp_heap_mb": {
+   "value": 2600.7,
+   "age_s": 22.8
+  },
+  "probe_browser_ms": {
+   "value": 43.0,
+   "age_s": 22.1
+  },
+  "browser_pmf_mb": {
+   "value": 3028.9,
+   "age_s": 26.2
+  },
+  "max_renderer_pmf_mb": {
+   "value": 2630.5,
+   "age_s": 26.2
+  },
+  "host_mem_free_mb": {
+   "value": 91.8,
+   "age_s": 22.8
+  },
+  "host_mem_used_mb": {
+   "value": 3907.6,
+   "age_s": 22.8
+  },
+  "host_anon_mb": {
+   "value": 3331.1,
+   "age_s": 22.8
+  },
+  "host_file_mb": {
+   "value": 435.6,
+   "age_s": 22.8
+  },
+  "host_swap_cached_mb": {
+   "value": 0.0,
+   "age_s": 22.8
+  },
+  "host_mem_avail_est_mb": {
+   "value": 482.3,
+   "age_s": 22.8
+  },
+  "chrome_cpu_pct": {
+   "value": 19.7,
+   "age_s": 22.1
+  },
+  "alloc_renderer_cpu_pct": {
+   "value": 0.0,
+   "age_s": 22.1
+  },
+  "cumulative_alloc_mb": {
+   "value": 2600,
+   "age_s": 29.3
+  },
+  "alloc_step_ms": {
+   "value": 374.4,
+   "age_s": 29.3
+  }
+ },
+ "recovery": "recovery_ok",
+ "recovery_detail": {
+  "terminal": false,
+  "via": "new_page",
+  "ms": 561,
+  "browser_pid_before": 751,
+  "browser_pid_after": 751,
+  "same_browser_process": true,
+  "surviving_pages": [
+   "New Tab",
+   "bench-alloc",
+   "stat"
+  ],
+  "pressured_page": "dead: its target remains but its renderer no longer answers"
+ },
+ "survivors": {
+  "browser_pid_before": 751,
+  "browser_pid_after": 751,
+  "same_browser_process": true,
+  "surviving_pages": [
+   "New Tab",
+   "bench-alloc",
+   "stat"
+  ],
+  "pressured_page": "dead: its target remains but its renderer no longer answers"
+ },
+ "disconnected": false,
+ "session_status_after": "READY",
+ "mem_total_mb": 3999.4,
+ "avail_est_at_start_mb": 3052.7,
+ "vm_free_min_mb": 80.8,
+ "slowdown": "yes",
+ "slow_reasons": [
+  "allocation step 100 \u2192 193 ms (1.9\u00d7) while still succeeding",
+  "the final step ran 22 s before the renderer died, vs 0.1 s for early steps (218\u00d7)"
+ ],
+ "slowdown_onset_alloc_mb": null,
+ "probe": {
+  "baseline_p50": 47.55,
+  "pre_failure_p50": 45.4,
+  "pre_failure_p95": 45.925,
+  "pre_failure_max": 46.0,
+  "n_baseline": 10,
+  "n_pre": 4,
+  "ratio_p50": 0.9547844374342798
+ },
+ "browser_probe": {
+  "baseline_p50": 44.3,
+  "pre_failure_p50": 44.8,
+  "pre_failure_p95": 56.949999999999996,
+  "pre_failure_max": 58.9,
+  "n_baseline": 9,
+  "n_pre": 4,
+  "ratio_p50": 1.0112866817155757
+ },
+ "host_probe": {
+  "baseline_p50": 240.75,
+  "pre_failure_p50": 248.4,
+  "pre_failure_p95": 13529.159999999998,
+  "pre_failure_max": 15004.8,
+  "n_baseline": 4,
+  "n_pre": 3,
+  "ratio_p50": 1.0317757009345794
+ },
+ "chrome_cpu_idle": {
+  "baseline_p50": 8.850000000000001,
+  "pre_failure_p50": 17.55,
+  "pre_failure_p95": 33.724999999999994,
+  "pre_failure_max": 36.2,
+  "n_baseline": 8,
+  "n_pre": 4,
+  "ratio_p50": 1.983050847457627
+ },
+ "step_ms_first5_p50": 99.5,
+ "step_ms_last3_p50": 192.9,
+ "timeouts_before_failure": 0,
+ "paged": "no",
+ "swap_cached_max_mb": 0.0,
+ "disk_write_mb_s": {
+  "baseline_p50": 0.05,
+  "pre_failure_p50": 0.08,
+  "pre_failure_max": 0.63
+ },
+ "disk_read_mb_s": {
+  "baseline_p50": 0.0,
+  "pre_failure_p50": 0.04
+ },
+ "beyond_ram": false,
+ "beyond_avail": false,
+ "write_surge": false,
+ "aftermath": {
+  "host_mem_inuse_excl_cache_mb": {
+   "before": 3517.1,
+   "after": 940.9000000000001,
+   "source": "reconnect",
+   "delta": -2576.2
+  },
+  "host_mem_free_mb": {
+   "before": 91.8,
+   "after": 2531.5,
+   "source": "reconnect",
+   "delta": 2439.7
+  },
+  "browser_pmf_mb": {
+   "before": 3028.9,
+   "after": 410.3,
+   "source": "reconnect",
+   "delta": -2618.6
+  }
+ },
+ "memory_delta_after_failure_mb": -2576.2,
+ "allocs_after_failure": 0,
+ "cloudwatch": {
+  "namespaces": [
+   "AWS/Bedrock-AgentCore"
+  ],
+  "selected": {
+   "memory": {
+    "signal": "memory",
+    "namespace": "AWS/Bedrock-AgentCore",
+    "name": "MemoryUsed-GBHours",
+    "dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Service",
+      "Value": "AgentCore.Browser"
+     }
+    ],
+    "scope": "resource",
+    "stat": "Sum",
+    "unit_kind": "gb_hours",
+    "key": "AWS/Bedrock-AgentCore:MemoryUsed-GBHours[Resource=aws.browser.v1,Service=AgentCore.Browser]"
+   },
+   "cpu": {
+    "signal": "cpu",
+    "namespace": "AWS/Bedrock-AgentCore",
+    "name": "CPUUsed-vCPUHours",
+    "dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Service",
+      "Value": "AgentCore.Browser"
+     }
+    ],
+    "scope": "resource",
+    "stat": "Sum",
+    "unit_kind": "vcpu_hours",
+    "key": "AWS/Bedrock-AgentCore:CPUUsed-vCPUHours[Resource=aws.browser.v1,Service=AgentCore.Browser]"
+   },
+   "sessions": {
+    "signal": "sessions",
+    "namespace": "AWS/Bedrock-AgentCore",
+    "name": "ActiveSessionCount",
+    "dimensions": [
+     {
+      "Name": "Service",
+      "Value": "AgentCore.Browser"
+     }
+    ],
+    "scope": "service",
+    "stat": "Maximum",
+    "unit_kind": "count",
+    "key": "AWS/Bedrock-AgentCore:ActiveSessionCount[Service=AgentCore.Browser]"
+   }
+  },
+  "metrics_listed": 53,
+  "memory_points_in_session": 0,
+  "cpu_points": 0,
+  "memory_peak_mb": null,
+  "covers_session": false,
+  "usage_log_groups": [
+   "/aws/vendedlogs/bedrock-agentcore/browser/USAGE_LOGS/aws.browser.v1"
+  ],
+  "usage_log_records": 0,
+  "usage_log_peak_mb": null,
+  "other_ready_sessions_at_start": 0
+ },
+ "billing": {
+  "price_gb_hour": 0.00945,
+  "price_vcpu_hour": 0.0895,
+  "min_billed_gb": 0.125,
+  "billed_seconds": 200,
+  "memory_by_signal": {
+   "chrome_pmf": {
+    "peak_gb": 2.958,
+    "mean_gb": 1.346,
+    "memory_cost_usd": 0.001025
+   },
+   "vm_in_use_excl_cache": {
+    "peak_gb": 3.435,
+    "mean_gb": 1.848,
+    "memory_cost_usd": 0.001275
+   },
+   "vm_used_incl_cache": {
+    "peak_gb": 3.827,
+    "mean_gb": 2.988,
+    "memory_cost_usd": 0.001864
+   }
+  },
+  "chrome_cpu_vcpu_seconds": 31.9,
+  "chrome_cpu_measured_seconds": 191.7,
+  "cpu_cost_usd_from_chrome": 0.000794
+ },
+ "baseline_gb": 0.9246093750000002,
+ "counts": {
+  "samples": 261,
+  "memdumps": 27,
+  "host_samples": 31,
+  "page_samples": 69,
+  "events": 3
+ },
+ "events": [
+  {
+   "elapsed_s": 151.9,
+   "event": "page_crash",
+   "detail": {
+    "terminal": true,
+    "page": "alloc",
+    "role": "strategy",
+    "source": "page.on(crash)",
+    "crashes": 1,
+    "in_flight_target_mb": 2800
+   }
+  },
+  {
+   "elapsed_s": 151.9,
+   "event": "target_crashed",
+   "detail": {
+    "terminal": false,
+    "page": "alloc",
+    "status": "killed",
+    "error_code": 9,
+    "exit_status": "SIGKILL",
+    "target_id": "6F62FA04E63ABD621E5CDACD8C0E6B54"
+   }
+  },
+  {
+   "elapsed_s": 198.0,
+   "event": "recovery_ok",
+   "detail": {
+    "terminal": false,
+    "via": "new_page",
+    "ms": 561,
+    "browser_pid_before": 751,
+    "browser_pid_after": 751,
+    "same_browser_process": true,
+    "surviving_pages": [
+     "New Tab",
+     "bench-alloc",
+     "stat"
+    ],
+    "pressured_page": "dead: its target remains but its renderer no longer answers"
+   }
+  }
+ ],
+ "mode_short": "OOM kill of the tab",
+ "summary_line": "[inpage] failure mode: OOM kill: the tab's process was SIGKILLed while the VM was out of memory at 2,600 MB allocated | paged to disk: no | slowed before failing: yes"
+}

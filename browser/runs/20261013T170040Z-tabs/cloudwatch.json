@@ -1,0 +1,821 @@
+{
+ "collected_at": "2026-10-14T22:44:34.436033+00:00",
+ "window": [
+  "2026-10-13T16:58:42.434233+00:00",
+  "2026-10-13T17:04:24.222728+00:00"
+ ],
+ "covers_session": true,
+ "discovery": {
+  "region": "us-west-2",
+  "browser_id": "aws.browser.v1",
+  "namespace_scan_truncated": false,
+  "all_namespaces_scanned": [
+   "AWS/AmplifyHosting",
+   "AWS/Bedrock",
+   "AWS/Bedrock-AgentCore",
+   "AWS/Bedrock/DataAutomation",
+   "AWS/DynamoDB",
+   "AWS/KMS",
+   "AWS/Kendra",
+   "AWS/Logs",
+   "AWS/S3",
+   "AWS/S3/Tables",
+   "AWS/SNS",
+   "AWS/SecretsManager",
+   "AWS/States",
+   "AWS/Usage"
+  ],
+  "agentcore_namespaces": [
+   "AWS/Bedrock-AgentCore"
+  ],
+  "metrics_listed": [
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "MemoryUsed-GBHours",
+    "Dimensions": [
+     {
+      "Name": "Service",
+      "Value": "AgentCore.Browser"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "MemoryUsed-GBHours",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Service",
+      "Value": "AgentCore.Browser"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "CPUUsed-vCPUHours",
+    "Dimensions": [
+     {
+      "Name": "Service",
+      "Value": "AgentCore.Browser"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "CPUUsed-vCPUHours",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Service",
+      "Value": "AgentCore.Browser"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Duration",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "ListBrowserSessions"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Throttles",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "ListBrowserSessions"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "UserErrors",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "ListBrowserSessions"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Latency",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "ListBrowserSessions"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Errors",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "ListBrowserSessions"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Invocations",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "ListBrowserSessions"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "SystemErrors",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "ListBrowserSessions"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Errors",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "StartBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Throttles",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "StartBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "SystemErrors",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "StartBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Duration",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "StartBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "UserErrors",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "StartBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "UserErrors",
+    "Dimensions": [
+     {
+      "Name": "Operation",
+      "Value": "ConnectBrowserAutomationStream"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Errors",
+    "Dimensions": [
+     {
+      "Name": "Operation",
+      "Value": "ConnectBrowserAutomationStream"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Invocations",
+    "Dimensions": [
+     {
+      "Name": "Operation",
+      "Value": "ConnectBrowserAutomationStream"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Duration",
+    "Dimensions": [
+     {
+      "Name": "Operation",
+      "Value": "ConnectBrowserAutomationStream"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Throttles",
+    "Dimensions": [
+     {
+      "Name": "Operation",
+      "Value": "ConnectBrowserAutomationStream"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Duration",
+    "Dimensions": [
+     {
+      "Name": "Operation",
+      "Value": "StartBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Invocations",
+    "Dimensions": [
+     {
+      "Name": "Operation",
+      "Value": "StartBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "SystemErrors",
+    "Dimensions": [
+     {
+      "Name": "Operation",
+      "Value": "ConnectBrowserAutomationStream"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Duration",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "ConnectBrowserAutomationStream"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Invocations",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "ConnectBrowserAutomationStream"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Errors",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "ConnectBrowserAutomationStream"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "UserErrors",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "ConnectBrowserAutomationStream"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "SystemErrors",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "ConnectBrowserAutomationStream"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Throttles",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "ConnectBrowserAutomationStream"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Throttles",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "StopBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Latency",
+    "Dimensions": [
+     {
+      "Name": "Operation",
+      "Value": "StartBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Errors",
+    "Dimensions": [
+     {
+      "Name": "Operation",
+      "Value": "StartBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "UserErrors",
+    "Dimensions": [
+     {
+      "Name": "Operation",
+      "Value": "StartBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "SystemErrors",
+    "Dimensions": [
+     {
+      "Name": "Operation",
+      "Value": "StartBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Throttles",
+    "Dimensions": [
+     {
+      "Name": "Operation",
+      "Value": "StartBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Invocations",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "StartBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Latency",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "StartBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "SystemErrors",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "StopBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Duration",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "BrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Invocations",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "StopBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Errors",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "StopBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Latency",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "StopBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "UserErrors",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "StopBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Duration",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "StopBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "ActiveSessionCount",
+    "Dimensions": [
+     {
+      "Name": "Service",
+      "Value": "AgentCore.Browser"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Latency",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "GetBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Errors",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "GetBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "SystemErrors",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "GetBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "UserErrors",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "GetBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Throttles",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "GetBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Invocations",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "GetBrowserSession"
+     }
+    ]
+   },
+   {
+    "Namespace": "AWS/Bedrock-AgentCore",
+    "MetricName": "Duration",
+    "Dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Operation",
+      "Value": "GetBrowserSession"
+     }
+    ]
+   }
+  ],
+  "selected": {
+   "memory": {
+    "signal": "memory",
+    "namespace": "AWS/Bedrock-AgentCore",
+    "name": "MemoryUsed-GBHours",
+    "dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Service",
+      "Value": "AgentCore.Browser"
+     }
+    ],
+    "scope": "resource",
+    "stat": "Sum",
+    "unit_kind": "gb_hours",
+    "key": "AWS/Bedrock-AgentCore:MemoryUsed-GBHours[Resource=aws.browser.v1,Service=AgentCore.Browser]"
+   },
+   "cpu": {
+    "signal": "cpu",
+    "namespace": "AWS/Bedrock-AgentCore",
+    "name": "CPUUsed-vCPUHours",
+    "dimensions": [
+     {
+      "Name": "Resource",
+      "Value": "aws.browser.v1"
+     },
+     {
+      "Name": "Service",
+      "Value": "AgentCore.Browser"
+     }
+    ],
+    "scope": "resource",
+    "stat": "Sum",
+    "unit_kind": "vcpu_hours",
+    "key": "AWS/Bedrock-AgentCore:CPUUsed-vCPUHours[Resource=aws.browser.v1,Service=AgentCore.Browser]"
+   },
+   "sessions": {
+    "signal": "sessions",
+    "namespace": "AWS/Bedrock-AgentCore",
+    "name": "ActiveSessionCount",
+    "dimensions": [
+     {
+      "Name": "Service",
+      "Value": "AgentCore.Browser"
+     }
+    ],
+    "scope": "service",
+    "stat": "Maximum",
+    "unit_kind": "count",
+    "key": "AWS/Bedrock-AgentCore:ActiveSessionCount[Service=AgentCore.Browser]"
+   }
+  },
+  "period_s": 60,
+  "errors": []
+ },
+ "series": {
+  "memory": {
+   "2026-10-13T16:58:00+00:00": 4095.9945386666805,
+   "2026-10-13T16:59:00+00:00": 3987.1283836379134,
+   "2026-10-13T17:00:00+00:00": 1160.6628352000205,
+   "2026-10-13T17:01:00+00:00": 3186.4106159299586,
+   "2026-10-13T17:02:00+00:00": 4096.0032085333405,
+   "2026-10-13T17:03:00+00:00": 2410.890947440865
+  },
+  "cpu": {
+   "2026-10-13T16:58:00+00:00": 0.73437271666668,
+   "2026-10-13T16:59:00+00:00": 0.32130563333334,
+   "2026-10-13T17:00:00+00:00": 0.10277549999999999,
+   "2026-10-13T17:01:00+00:00": 0.30216978333329997,
+   "2026-10-13T17:02:00+00:00": 0.55580433333336,
+   "2026-10-13T17:03:00+00:00": 0.17980813333332002
+  },
+  "sessions": {
+   "2026-10-13T16:58:00+00:00": 1.0,
+   "2026-10-13T17:00:00+00:00": 1.0,
+   "2026-10-13T17:01:00+00:00": 1.0,
+   "2026-10-13T17:02:00+00:00": 1.0
+  }
+ },
+ "raw_datapoints": {
+  "AWS/Bedrock-AgentCore:MemoryUsed-GBHours[Resource=aws.browser.v1,Service=AgentCore.Browser]": {
+   "2026-10-13T16:58:00+00:00": 0.066666577777778,
+   "2026-10-13T16:59:00+00:00": 0.06489466770244,
+   "2026-10-13T17:00:00+00:00": 0.018890996666667,
+   "2026-10-13T17:01:00+00:00": 0.051862151951985,
+   "2026-10-13T17:02:00+00:00": 0.066666718888889,
+   "2026-10-13T17:03:00+00:00": 0.039239761514336995
+  },
+  "AWS/Bedrock-AgentCore:CPUUsed-vCPUHours[Resource=aws.browser.v1,Service=AgentCore.Browser]": {
+   "2026-10-13T16:58:00+00:00": 0.012239545277778,
+   "2026-10-13T16:59:00+00:00": 0.005355093888889,
+   "2026-10-13T17:00:00+00:00": 0.001712925,
+   "2026-10-13T17:01:00+00:00": 0.005036163055555,
+   "2026-10-13T17:02:00+00:00": 0.009263405555556,
+   "2026-10-13T17:03:00+00:00": 0.002996802222222
+  },
+  "AWS/Bedrock-AgentCore:ActiveSessionCount[Service=AgentCore.Browser]": {
+   "2026-10-13T16:58:00+00:00": 1.0,
+   "2026-10-13T17:00:00+00:00": 1.0,
+   "2026-10-13T17:01:00+00:00": 1.0,
+   "2026-10-13T17:02:00+00:00": 1.0
+  }
+ },
+ "usage_log_groups": [
+  "/aws/vendedlogs/bedrock-agentcore/browser/USAGE_LOGS/aws.browser.v1"
+ ],
+ "usage_log_records": 43
+}
